@@ -1,12 +1,10 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import { userStore } from '@/store/state'
 import { BaseLayoutProps } from '@/types/layouts'
-import { MenuData } from '@/utils/mockData'
-import { ROUTES } from '@/utils/routers'
 import { Breadcrumb, Layout, Menu } from 'antd'
-import Link from 'next/link'
+import { MenuData } from '@/utils/mockData'
 import React, { useEffect, useState } from 'react'
-import { useRecoilValue, useSetRecoilState } from 'recoil'
+import { useRecoilValue, useResetRecoilState } from 'recoil'
 import classes from './index.module.scss'
 
 const { Header, Content, Footer } = Layout
@@ -14,40 +12,17 @@ const { Header, Content, Footer } = Layout
 export default function BaseLayout({ children }: BaseLayoutProps) {
 	const [menuState, setMenuState] = useState() as any
 	const userState = useRecoilValue(userStore)
-	const setUserState = useSetRecoilState(userStore)
+	const resetUserState = useResetRecoilState(userStore)
 	const renderMenu = MenuData?.filter((item: any) => item.key !== 'login')
 
 	useEffect(() => {
 		setMenuState(
 			userState?.id
 				? renderMenu &&
-						renderMenu.concat(
-							{
-								label: <Link href={ROUTES.PROFILE}>{userState.last_name}</Link>,
-								key: 'info',
-							},
-							{
-								label: (
-									<span
-										onClick={() => {
-											setUserState({
-												id: '',
-												first_name: '',
-												last_name: '',
-												is_admin: '',
-												phone: '',
-												email: '',
-												username: '',
-												token: '',
-											})
-										}}
-									>
-										Logout
-									</span>
-								),
-								key: 'logout',
-							},
-						)
+						renderMenu.concat({
+							label: <span onClick={() => resetUserState()}>Logout</span>,
+							key: 'logout',
+						})
 				: MenuData,
 		)
 	}, [userState])

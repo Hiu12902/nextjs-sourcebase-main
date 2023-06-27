@@ -1,10 +1,10 @@
 export type UserModal = {
 	id: string
-	first_name: string
-	last_name: string
-	is_admin: string
-	phone: string
-	email: string
+    email: string
 	username: string
+    account_type: string
+    name: string
+    gender: string
+    phone: string
 	token: string
 }

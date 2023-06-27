@@ -1,6 +1,6 @@
 import { userStore } from '@/store/state'
 import { BaseLayoutProps } from '@/types/layouts'
-import { ROUTES } from '@/utils/routers'
+import { APP_ROUTES } from '@/utils/routers'
 import { Layout } from 'antd'
 import { useRouter } from 'next/router'
 import { useEffect, useState } from 'react'
@@ -19,7 +19,7 @@ export default function PermissionLayout({ children }: BaseLayoutProps) {
 
 	if (!isSSR) return null
 	if (userState.id) {
-		router.push(ROUTES.HOME)
+		router.push(APP_ROUTES.HOME)
 	}
 
 	return isSSR && !userState.id ? (

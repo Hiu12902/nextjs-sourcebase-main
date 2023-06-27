@@ -2,18 +2,15 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react'
 import PermissionLayout from '@/layouts/PermissionLayout'
+import classes from './style.module.scss'
+import { LoginForm } from './components'
 import { userStore } from '@/store/state'
-import { ROUTES } from '@/utils/routers'
+import { ADMIN_ROUTES, APP_ROUTES } from '@/utils/routers'
 import { useRouter } from 'next/router'
 import { useSetRecoilState } from 'recoil'
-import classes from './style.module.scss'
-import Image from 'next/image'
-import { signIn, signOut, useSession } from 'next-auth/react'
-import { useForm } from 'react-hook-form'
 import { Modal } from 'antd'
 import * as AuthAPI from '@/api/AuthAPI'
-import { AuthResponse } from '@/types/models/auth'
-
+import { LoginResponse } from '@/types/models/auth'
 interface FormData {
 	email: string
 	password: string
@@ -21,70 +18,39 @@ interface FormData {
 
 export default function LoginPage() {
 	const router = useRouter()
-	const {
-		register,
-		handleSubmit,
-		formState: { errors },
-	} = useForm<FormData>({
-		defaultValues: {
-			email: '',
-			password: '',
-		},
-	})
 	const setUserState = useSetRecoilState(userStore)
-	const { data: session, status } = useSession()
-
 	const onSubmit = async (data: FormData) => {
 		try {
-			const res: AuthResponse = await AuthAPI.login({
-				email: data.email,
-				password: data.password,
+			const res: LoginResponse = await AuthAPI.login({
+				email: data?.email,
+				password: data?.password,
 			})
-			const { id, first_name, last_name, is_admin, phone, email, username } =
-				res?.results?.row
-			const token = res?.results.accessToken
+			const { id, email, username, account_type, name, gender, phone } =
+				res?.user
+			const token = res?.accessToken
 			setUserState({
 				id,
-				first_name,
-				last_name,
-				is_admin,
-				phone,
 				email,
 				username,
+				account_type,
+				name,
+				gender,
+				phone,
 				token,
 			})
-			setTimeout(() => {
-				router.push(ROUTES.HOME)
-			}, 500)
+			if (token && account_type === 'admin') {
+				router.push(ADMIN_ROUTES.DASHBOARD)
+			} else if (token && account_type === 'admin') {
+				router.push(APP_ROUTES.HOME)
+			}
 		} catch (error) {
+			console.log(error);
 			Modal.error({
 				title: 'Error',
 				content: 'Your account do not correct!',
 			})
 		}
 	}
-
-	if (status === 'loading') {
-		return null
-	}
-
-	if (session) {
-		return (
-			<>
-				<Image
-					src={session?.user?.image || ''}
-					alt="avatar"
-					width={25}
-					height={25}
-					className="h-48 w-48 rounded-full"
-				/>
-				<br />
-				Signed in as {session?.user?.email} <br />
-				<button onClick={() => signOut()}>Sign Out</button>
-			</>
-		)
-	}
-
 	return (
 		<PermissionLayout>
 			<div className={classes.loginPage}>
@@ -103,48 +69,7 @@ export default function LoginPage() {
 						<h3>Welcome to Hitek </h3>
 					</div>
 					<div className={classes.contentSide}>
-						<form onSubmit={handleSubmit(onSubmit)}>
-							<div className={classes.formGroup}>
-								<label>Email</label>
-								<input
-									placeholder="Enter your Email"
-									type="email"
-									{...register('email', {
-										required: true,
-										pattern: {
-											value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
-											message: 'Invalid email address',
-										},
-									})}
-								/>
-								{errors && errors.email && errors.email.type === 'required' && (
-									<p className={classes.required}>Email is required</p>
-								)}
-							</div>
-							<div className={classes.formGroup}>
-								<label>Password</label>
-								<input
-									placeholder="Enter your password"
-									type="password"
-									{...register('password', { required: true })}
-								/>
-								{errors &&
-									errors.password &&
-									errors.password.type === 'required' && (
-										<p className={classes.required}>Password is required</p>
-									)}
-							</div>
-							<div className={classes.forgotPassword}>
-								<p>Forgot Password?</p>
-							</div>
-							<div className={classes.btnSide}>
-								<button type="submit">Log in</button>
-								<p>
-									Don't have an account?{' '}
-									<a onClick={() => signIn()}>Sign up for free</a>
-								</p>
-							</div>
-						</form>
+						<LoginForm onSubmit={onSubmit} />
 					</div>
 				</div>
 			</div>

@@ -1,10 +1,10 @@
 import { MenuProps } from 'antd'
 import Link from 'next/link'
-import { ROUTES } from './routers'
+import { APP_ROUTES } from './routers'
 
 export const MenuData: MenuProps['items'] = [
 	{
-		label: <Link href={ROUTES.HOME}>Home</Link>,
+		label: <Link href={APP_ROUTES.HOME}>Home</Link>,
 		key: 'home',
 	},
 	{
@@ -42,19 +42,11 @@ export const MenuData: MenuProps['items'] = [
 		],
 	},
 	{
-		label: <Link href={ROUTES.PRODUCTS}>Products</Link>,
-		key: 'products',
-	},
-	{
-		label: <Link href={ROUTES.BLOGS}>Blogs</Link>,
+		label: <Link href={APP_ROUTES.BLOGS}>Blogs</Link>,
 		key: 'blogs',
 	},
 	{
-		label: <Link href={ROUTES.CONTACT}>Contact</Link>,
-		key: 'contact',
-	},
-	{
-		label: <Link href={ROUTES.LOGIN}>Login</Link>,
+		label: <Link href={APP_ROUTES.LOGIN}>Login</Link>,
 		key: 'login',
 	},
 ]
