@@ -1,0 +1,25 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto', sans-serif !important;
+}
+
+.breadcrumb {
+	padding: 0 50px;
+	margin: 16px 0;
+}
+
+#siteLayoutContent {
+	margin-bottom: 16px;
+	min-height: 100vh;
+	padding: 0 50px;
+	margin: 16px 0;
+}
+
+#layout {
+	background-color: #fff;
+}
+
+#footer {
+	text-align: center;
+}
