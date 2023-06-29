@@ -19,13 +19,6 @@ export const userStore = atom<UserModal>({
 	effects_UNSTABLE: [persistAtom],
 })
 
-// export const getNameOfUserStore = selector({
-// 	key: 'nameStore',
-// 	get: ({ get }) => {
-// 		return get(userStore).first_name + get(userStore).last_name
-// 	},
-// })
-
 export const getTokenOfUSerStore = selector({
 	key: 'tokenStore',
 	get: ({ get }) => {

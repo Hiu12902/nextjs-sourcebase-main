@@ -1,8 +1,8 @@
 /* eslint-disable react-hooks/exhaustive-deps */
-import { userStore } from '@/store/state'
+import { userStore } from '@/store/userStore'
 import { BaseLayoutProps } from '@/types/layouts'
 import { Breadcrumb, Layout, Menu } from 'antd'
-import { MenuData } from '@/utils/mockData'
+import { MenuData } from '@/utils/breadcrumb'
 import React, { useEffect, useState } from 'react'
 import { useRecoilValue, useResetRecoilState } from 'recoil'
 import classes from './index.module.scss'

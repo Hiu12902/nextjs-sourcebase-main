@@ -6,17 +6,14 @@ export type BlogModel = {
 	description: string
 }
 
-export type BlogState = {
+export type BlogsModel = {
 	total: number | undefined
 	rows: Array<BlogModel>
 }
 
 export type BlogResponse = {
-	status: {
-		code: number
-		msg: string
-	}
-	results: {
-		rows: Array<BlogModel>
-	}
+	blog: BlogModel
+}
+export type BlogsResponse = {
+	blogs: BlogsModel
 }

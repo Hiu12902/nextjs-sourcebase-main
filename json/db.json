@@ -1,226 +1,248 @@
 {
-	"users": [
-		{
-			"id": 1,
-			"email": "a",
-			"password": "123"
-		},
-		{
-			"id": 2,
-			"email": "b",
-			"password": "123"
-		},
-		{
-			"email": "abcdef@gmail.com",
-			"password": "$2a$10$DPahNy2Bb0vddondkuk1vuttWUWfcCW1i//NucA31k53glPdxilJ6",
-			"id": 3
-		},
-		{
-			"email": "abcdef@gmail.com",
-			"password": "$2a$10$VcxUMZtSKgxtX1OyKLpRouWaOCHRHUjp7FOqtmd5.nC00KDHkYB8y",
-			"id": 4
-		},
-		{
-			"email": "test1@gmail.com",
-			"password": "$2a$10$a27LDsM0cUmay4fMIdeT7OjxrQNDOS/ZwRA.JMGAQ2s75a.3JjHA2",
-			"id": 5
-		},
-		{
-			"email": "a@gmail.comabc",
-			"password": "$2a$10$pTdvX6tBL2NYJot9oXOzeeNGd.nmR9KaPf1fG0IXqHA8fBs6XJ2vm",
-			"id": 6
-		},
-		{
-			"email": "a@gmail.comgk",
-			"password": "$2a$10$pfrDZ71/7bfSqmwy0W8aveTDWbIujNs5AZ6NybQu4RfAh4nRA3NgW",
-			"id": 7
-		},
-		{
-			"email": "ad@gmail.com",
-			"password": "$2a$10$sVF.jnJFl6TRug1xU3B6FO4JKqB04mvvPfzH7/W/UfD6ort8pnm1W",
-			"id": 8,
-			"is_admin": "true"
-		},
-		{
-			"email": "ad@gmail.com",
-			"password": "$2a$10$tQ76mMdS8U80Cgn9Erl.2./KEXvYfxW1D7iLl0MFm6VjL2MN2c3/i",
-			"id": 9,
-			"is_admin": "true"
-		},
-		{
-			"email": "test@gmail.com",
-			"password": "$2a$10$lfZr.onQRLEY3dz5YtSBBuGm5AYCjfnEwXCuHFL3wZv/o.y0I9M72",
-			"id": 10
-		},
-		{
-			"email": "admin@g.com",
-			"password": "$2a$10$Hnn8tHdoHMGuVli1psYVu.TP37Gdr2jqc9NjEvGbSXETOzvV54.bS",
-			"is_admin": "true",
-			"id": 11
-		},
-		{
-			"email": "admin-a@g.com",
-			"password": "$2a$10$QsfoPeHmenc8CEnl1mNpA.Y8xFK0lN/sUJ4m52bPCz8q2nm8a5Rxy",
-			"is_admin": "true",
-			"id": 12
-		},
-		{
-			"email": "b@g.com",
-			"password": "$2a$10$FdwHZ3uOUG/FSIVwdGcwxuXa92U1DMCqgFl9.OEgMFaFe8hu2RZSe",
-			"is_admin": "false",
-			"id": 13
-		},
-		{
-			"email": "a@gmail.comtest",
-			"password": "$2a$10$CIpu5HLCoaYRdBMwII2SHuAF2zr/27nXzjCdWjmJKP0jx.Y4lKjW6",
-			"is_admin": "false",
-			"id": 14
-		},
-		{
-			"email": "testuser@g.comtestchange",
-			"password": "$2a$10$.m7MF6Xi4gT3r8LPdO1X.Ots.0z46EXTvRzPNkx9LhVThUIJQ6twu",
-			"id": 15,
-			"avatar": "https://plus.unsplash.com/premium_photo-1667893494526-0b863b7824a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1Nnx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
-		},
-		{
-			"email": "hieunguyen12902@gmail.com",
-			"password": "$2a$10$IJapcw7TwIOgMIygtKniXO6CALiRSZQQUGOMKdQRnZa8lc0wenAAm",
-			"is_admin": "false",
-			"id": 16
-		},
-		{
-			"email": "hieunguyen123@gmail.com",
-			"password": "$2a$10$eS6kLFogFvawUr7RHReWK.6ub3vLrToNpUw6ZwK/.gQVzlxe6uX.u",
-			"is_admin": "false",
-			"id": 17
-		}
-	],
-	"blogs": [
-		{
-			"id": 1,
-			"title": "IAEA director's visit to Zaporizhzhia nuclear plant delayed by a day, Russian state media reports",
-			"content": "The United Nations' nuclear watchdog chief has postponed his scheduled visit to the occupied Zaporizhzhia nuclear power plant in southern Ukraine by a day, according to a report in Russian state media Wednesday  \n\nInternational Atomic Energy Agency (IAEA) director Rafael Grossi's visit slated for Wednesday has been delayed to Thursday, Renat Karchaa, an adviser to the director general of Russia’s Rosenergoatom nuclear firm, told state-run news agency TASS in the report.\n\n\"[His] mission has been put off till the next day,\" Karchaa told TASS.\n\nFollowing a meeting with Ukrainian President Volodymyr Zelensky in Kyiv Tuesday, Grossi said he was concerned about the possibility the nuclear plant could be caught up in Ukraine’s counteroffensive against Russia.\n\nHe had initially announced he would go to the plant on Wednesday to assess the situation. \n\n“We are enlarging the team, so we are trying to make our process as visible, as impactful as possible to avoid a nuclear accident,” Grossi told a news briefing in Kyiv.\nCNN has reached out to the IAEA to ask about Grossi's visit to the plant\n\nFlood impacts: The nuclear plant receives cooling water that's critical for safety from a nearby thermal plant that is fed upstream from the reservoir adjacent to the Nova Kakhovka dam that collapsed last week.\n\nOn Sunday, the IAEA said it needed access to a location near the plant to determine water levels at the reservoir to clarify a discrepancy between measurements following the dam's collapse.\n\nKyiv and Moscow have traded accusations over the dam’s destruction, without providing concrete proof that the other is culpable. The dam was occupied by Russia at the time of its collapse but is not yet clear whether it was deliberately attacked or if the breach was the result of structural failure.",
-			"image": "https://dynaimage.cdn.cnn.com/cnn/digital-images/org/3dede167-a4c8-4a59-ad64-3837ad881555.jpg",
-			"description": "From CNN's Duarte Mendonca and Sandi Sidhu"
-		},
-		{
-			"id": 2,
-			"title": "Russian attacks kill at least 3 civilians in Donetsk, Ukrainian official says",
-			"content": "Three people were killed and three others wounded in Donetsk following \"morning shelling\" by Russian forces early Wednesday, the eastern region's military chief said.\n\nIn a statement on Telegram, Pavlo Kyrylenko, head of the Donetsk region military administration, said initial information indicated rocket attacks killed two and injured two others in Kramatorsk, while one person died and another was wounded in Kostiantynivka.\n\nThe attacks caused \"significant damage\" to dozens of homes in the two cities, Kyrylenko said.\n\nRescuers were working at the impacted areas, he added.\n\nIn an earlier statement, Ukraine's air force said Russian forces had launched six Kh-22 air-launched cruise missiles targeting Donetsk from Russia's neighboring Rostov region.",
-			"image": "https://dynaimage.cdn.cnn.com/cnn/digital-images/org/8aa097e9-36fb-4af1-b3d3-01322d89632f.jpg",
-			"description": "From CNN's Olga Voitovych in Kyiv "
-		},
-		{
-			"id": 3,
-			"title": "NATO warplanes fly over Germany in alliance’s largest-ever aerial drills",
-			"content": "As the early stages of Ukraine’s counteroffensive against Russian invaders is unfolding on the battlefield, hundreds of warplanes from some of Kyiv’s biggest supporters are in the skies over Germany as NATO holds its largest aerial war games ever.\n\n“Air Defender 2023” is bringing together 250 warplanes — including 190 fighter jets — and 10,000 troops in drills designed to boost the alliance’s preparedness and ability “to protect against aircraft, drones and missile attacks on cities and critical infrastructure,” according to a NATO press release.\n\nThough the German-led exercises have been in the works for several years, their timing as Moscow unleashes punishing air attacks on Ukrainian cities as part of the now 16-month invasion of its neighbor sends a timely message, especially to Russian President Vladimir Putin.\n\nThe North Atlantic Treaty Organization was formed in the aftermath of World War II to defend Western nations from the Soviet Union and the alliance contains a mutual defense clause where an attack on any one member is considered an attack on all.\n\nSince Russia’s full-scale invasion began in February 2022, the worry in NATO is that the destruction Moscow has wreaked on Ukraine’s cities could spill beyond the country’s borders.\n\nNATO members’ military support for Ukraine, including tanks, armored vehicles and other weaponry being used in Kyiv’s current offensive, has consistently produced threats of retaliation from Russia.\n\nAlliance members are making plans to supply Ukraine with F-16 fighter jets of the same variety that are participating in the current war games.",
-			"image": "https://dynaimage.cdn.cnn.com/cnn/digital-images/org/022abedf-a059-4973-b548-bb3e2c087a99.jpg",
-			"description": "From CNN's Brad Lendon"
-		},
-		{
-			"id": 4,
-			"title": "Ukraine's air force says it shot down 12 out of 20 Russian missiles and drones launched overnight",
-			"content": "Russia launched cruise missiles and drones at targets across Ukraine overnight, Ukraine's air force said Wednesday.\n\nIn a statement, the air force said 12 out of 20 missiles and drones fired by Russia were intercepted by Ukrainian air defenses.\n\nRussia fired four Kalibr cruise missiles from the Black Sea in the direction of Odesa, three of which were shot down, it said. Ukrainian authorities said earlier that at least three people were killed and 13 others were wounded in the attack on the southern port city.\n\nRussian forces also launched six Kh-22 air-launched cruise missiles from Tu-22M3 long-range bombers targeting Donetsk from Russia's Rostov region, according to Ukraine's air force.\n\nThe impact of those missiles is unclear at the moment. \n\nRussia also launched 10 Iran-made attack drones on southeastern Ukraine, nine of which were shot down, the air force said.\n\n\"The Air Force, in cooperation with the air defense of the Ukrainian Defense Forces, destroyed 12 air targets during this night attack: three Kalibr cruise missiles and nine Iranian Shahed-136/131 attack drones,\" the air force statement said.\nThis post has been updated.",
-			"image": "https://dynaimage.cdn.cnn.com/cnn/digital-images/org/23d3822a-674f-4806-8c3c-cc394fc68aef.jpg",
-			"description": "From CNN's Olga Voitovych in Kyiv"
-		},
-		{
-			"id": 5,
-			"title": "Russian missile attack kills at least 3 in Odesa, Ukraine's military says",
-			"content": "At least three people died and 13 others were wounded on Wednesday after Russia fired four cruise missiles from the Black Sea at Ukraine's southern port city of Odesa, Ukrainian authorities said.\n\nIn a statement, Ukraine's Operational Command South said the strikes killed at least three people and injured seven others at a retail chain warehouse. Victims might still be trapped under the rubble there, it said.\n\nSix other people were injured at another location in the city center, where the attack damaged a business center, an educational institution, a residential complex, restaurants and shops, the statement added.\n\nThe attack comes after 11 people were killed, including a child, in Russian missile strikes on the central city of Kryvyi Rih on Tuesday, according to Ukrainian officials.",
-			"image": "https://dynaimage.cdn.cnn.com/cnn/digital-images/org/333c5783-9dfe-42df-8aba-2b927f4df0fe.jpg",
-			"description": "From CNN's Olga Voitovych in Kyiv "
-		},
-		{
-			"id": 6,
-			"title": "Biden and NATO chief express desire for Sweden to join defense alliance \"as soon as possible\"",
-			"content": "US President Joe Biden and NATO Secretary General Jens Stoltenberg on Tuesday reaffirmed their wish for Sweden to join NATO.\n\nDuring a meeting in Washington, DC, the two leaders “underscored their shared desire to welcome Sweden to the Alliance as soon as possible,” according to a White House readout.\n\nSweden signaled its intention to join NATO in May last year following Russia's full-scale invasion of Ukraine but its accession is being blocked by Turkey and Hungary.\n\nThe White House readout said Biden and Stoltenberg also discussed “the implications of Russia’s war on Ukraine for transatlantic security and the importance of continuing to strengthen NATO’s deterrence and defense.”\n\n\"They welcomed the support that Allies and partners are providing bilaterally to help Ukraine defend itself from Russian aggression,\" it added.\nEarlier, Stoltenberg said Ukraine's recent gains on the battlefield underscored the need for continued Western assistance to give Kyiv a \"stronger hand\" in any future negotiations with Moscow.\n\nThe meeting Tuesday comes ahead of a NATO Summit in Vilnius in July. ",
-			"image": "https://dynaimage.cdn.cnn.com/cnn/digital-images/org/d81121c4-a942-4165-ae73-d00ccba3dfd3.jpg",
-			"description": "From CNN's Mary Kay Mallonee"
-		},
-		{
-			"id": 7,
-			"title": "Russia calls for \"transparent\" investigation into Nord Stream pipeline attacks",
-			"content": "A Russian diplomat in the United States on Tuesday called for a \"transparent\" investigation into last September’s Nord Stream pipeline attacks, following a report from the Netherlands' public broadcaster that said Dutch military intelligence warned the CIA last year about an alleged Ukrainian plan to blow up the gas pipelines three months before they were hit.\n\nIn a Telegram post, Andrey Ledenev, Minister-Counselor at the Russian Embassy in Washington, DC, also said the role of the US in the blasts should be \"clarified.\"\n\n“It could be fruitful to ponder the unwillingness of the collective West to allow a transparent and objective international investigation, the terrorist attacks in the Baltic Sea, under the auspices of the UN Security Council, and to clarify the role of the U.S. in sabotaging the pipelines, factoring in [the US] being a direct beneficiary of the reshaping of the European energy market,” Ledenev said on the embassy's official Telegram account.\nBased on information from three US officials, CNN reported last week that the US received intelligence from a European ally last year that the Ukrainian military was planning an attack on the pipelines.\n\nLast September, leaks caused by underwater explosions were discovered in the Nord Stream 1 and 2 pipelines, which funnel gas from Russia into the European Union and run under the Baltic Sea. \n\nUkraine denied any responsibility for the leaks at the time, and the attack has been condemned by US officials and Western allies. It is currently being investigated by other European nations.  \n\n“We urge local authorities not to hide behind references to the alleged sufficiency of ongoing national investigations,” Ledenev said in the Telegram post. “They should act with deeds not words, to help shed light on the true circumstances surrounding the sabotage.”\nPrevious reporting from CNN’s Mick Krever, Alex Marquardt, Sarah Dean, Sugam Pokharel, Natasha Bertrand, Alex Marquardt and Haley Britzky ",
-			"image": "https://dynaimage.cdn.cnn.com/cnn/digital-images/org/04f84bd9-5364-4519-8fdc-8fa309e0792e.jpg",
-			"description": "From CNN's Josh Pennington"
-		},
-		{
-			"id": 8,
-			"title": "Ukraine claims battlefield advances in fierce fighting. Catch up on the latest headlines here",
-			"content": "Ukraine's top general said his troops have seen \"certain gains\" in their offensive and are \"moving forward,\" as fighting rages along the border of the Donetsk and Zaporizhzhia regions. \n\n“Both defensive and offensive fierce fighting is ongoing in the East and South of our nation. We have certain gains, implementing our plans, moving forward,” Gen. Valerii Zaluzhnyi said in a Facebook post. \n\nNATO's chief said Tuesday that Ukraine's gains on the battlefield underscore the need for continued Western assistance to give Kyiv a \"stronger hand\" in any future negotiations with Moscow.\n\nHere's the latest news from Russia's war in Ukraine:\n\nUkraine claims advances: Kyiv's troops are fighting fiercely to drive back the Russians along the border of the Donetsk and Zaporizhzhia regions, a Ukrainian commander said. Brig. Gen. Oleksandr Tarnavskyi, commander of the Tavria Operational and Strategic Group of Forces, said his troops are \"systematically destroying Russian manpower and equipment.\" CNN cannot independently verify battlefield claims. However, both sides have reported clashes in the area.\nA Russian view: \"Ukraine's offensive potential is far, far from exhausted,\" said Yevgeny Prigozhin, the head of Russia's Wagner mercenary group. Prigozhin also said he doesn't know if his fighters will remain in Ukraine amid an ongoing dispute with Russia’s Defense Ministry.\nRussian attacks: Ukrainian President Volodymyr Zelensky said a child was among 11 people killed in a Russian missile strike in the city of Kryvyi Rih on Tuesday. Meanwhile, in the northeastern Sumy region, at least seven forestry workers were killed by Russian shelling, a Ukrainian official said. Elsewhere in Sumy, a boarding school was hit by Russian shelling, forcing 135 children to evacuate, officials said.\nEuropean aid: Zelensky on Tuesday thanked the British-led alliance of multiple European countries for their latest air defense aid for Kyiv. The Joint Expeditionary Force had announced \"a powerful assistance package worth over €100 million [$108 million] to strengthen [Ukrainian] air defense,\" he said.\nDam collapse: The UN said the Nova Kakhovka dam collapse in southern Ukraine will have a \"huge impact\" on global food security, with prices likely to increase. Water levels are receding, but some settlements remain flooded, Ukrainian officials said. \nMeanwhile, on the front line: A Ukrainian military official on Tuesday reiterated accusations that Russian forces are blowing up small dams in areas where Ukrainian troops are on the offensive. The results were not large-scale and affected the agricultural land of one or two villages, according to Ukraine's Military Media Center.\nNord stream report: The Netherlands' public broadcaster NOS reported on Tuesday that Dutch military intelligence warned the CIA last year about an alleged Ukrainian plan to blow up the Nord Stream pipelines three months before they were hit. The report, which did not specify a source, was based on a joint investigation by NOS, Dutch television news show Nieuwsuur and two German outlets.",
-			"image": "https://dynaimage.cdn.cnn.com/cnn/digital-images/org/24f6e329-5f85-4e10-b0f6-5404ce23dbb0.jpg",
-			"description": "From CNN staff"
-		},
-		{
-			"id": 9,
-			"title": "Child among 11 killed in Kryvyi Rih strike, Zelensky says",
-			"content": "A child was among the 11 people killed after a missile attack by Russia on an apartment building in the central Ukrainian city of Kryvyi Rih on Tuesday, Ukrainian President Volodymyr Zelensky said in his nightly address.\n\nZelensky said rescue operations and clearing of rubble had concluded, and sent his condolences to the families and loved ones of the victims. He added that more than 30 people were injured, all of whom are being provided with assistance.\n\nA day of mourning for the victims has been declared on Wednesday. \n\n\n",
-			"image": "https://dynaimage.cdn.cnn.com/cnn/digital-images/org/1d1529fb-7396-4a57-b027-daec89262ee0.jpg",
-			"description": "From CNN's Yulia Kesaieva \n\n"
-		},
-		{
-			"id": 10,
-			"title": "Ukrainians fighting to drive back Russian forces in Donetsk and Zaporizhzhia, commander says",
-			"content": "A Ukrainian military commander said Tuesday that soldiers are fighting fiercely to drive back Russian forces along the border of the Donetsk and Zaporizhzhia regions.\n\n“In the Tavria sector, the Ukrainian defense forces are systematically destroying Russian manpower and equipment,” said Brig. Gen. Oleksandr Tarnavskyi, commander of the Tavria Operational and Strategic Group of Forces, whose troops are targeting occupied areas of Zaporizhzhia and the parts of Donetsk that border it.\n“Missile and artillery units of the Ukrainian defense forces in the Tavria sector carried out 1,504 firing missions over the last day,” he said, adding that “an enemy ammunition depot was also destroyed.\"\nCNN cannot independently verify battlefield claims.\n\nHowever, both sides have reported clashes in the Donetsk and Zaporizhzhia regions.",
-			"image": "https://dynaimage.cdn.cnn.com/cnn/digital-images/org/7d869d63-c858-43b1-bce9-52fce8c69d31.jpg",
-			"description": "From CNN's Yulia Kesaieva"
-		},
-		{
-			"id": 11,
-			"title": "After Saudi Arabia, Iran may be patching up with its oldest Arab foe",
-			"content": "It was perhaps the first royal wedding of its stature to have been filmed in the Middle East.\n\nThe year was 1939, when Princess Fawzia of Egypt tied the knot with Iran’s Crown Prince Mohammad Reza Pahlavi, interlocking the royal households of two of the Middle East’s most prominent nations in a strategic alliance.\n\nThousands of people had gathered for the event at Cairo’s Abdine Palace, where the wedding was marked with fireworks and a parade showcasing the two nations’ civilizations.\n\nPrincess Fawzia was the eldest sister of King Farouk I – Egypt’s last monarch – and was just 17 years old when she married Pahlavi, who two years later ascended to the throne and became Shah of Iran. Fawzia filed for divorce in 1945, and the divorce was recognized by Tehran in 1948.\n\nForty years after the wedding, Pahlavi was overthrown in an Islamic revolution that changed the course of Iranian relations with Arab states, and sent Iranian-Egyptian ties in particular on a downward spiral from which the two nations have never emerged.\n\nIran’s Supreme Leader Ayatollah Ali Khamenei last week publicly endorsed normalizing ties with Egypt, the most populous Arab country, saying that Iran “welcomes Egypt’s interest in restoring relations.”\n\n“We have no problem in this regard,” he tweeted.\n\nMedia reports have touted a potential détente between the two countries after Oman’s Sultan Haitham Bin Tariq visited both last month in what was seen as an attempt to broker a reconciliation.\n\nKhamenei’s recent comments come as Saudi Arabia normalizes ties with Iran after nearly eight years of a diplomatic freeze. Iran reopened its embassy and consulate in Saudi Arabia last week.\n\n“Iran is always looking for more cooperation in the wider Arab region, and normalization with Egypt, traditionally allied with the United States, would be something of a prize for Tehran,” HA Hellyer, a scholar at the Carnegie Endowment for International Peace in London, told CNN.",
-			"image": "https://media.cnn.com/api/v1/images/stellar/prod/230614121618-princess-fawzia-and-prince-pahlavi-wedding-033039.jpg?c=16x9&q=h_720,w_1280,c_fill/f_webp",
-			"description": "By Nadeen Ebrahim, CNN\nUpdated 3:31 PM EDT, Wed June 14, 2023"
-		},
-		{
-			"id": 12,
-			"title": "A ‘prize’ for Tehran",
-			"content": "“Even if not accurate, the narrative would be that Tehran is strengthening its own position at the expense of the United States,” he said, noting that for Egypt, interest isn’t as high on the agenda as “Tehran doesn’t really provide much to Cairo.”\n\nThe wider region has been witnessing a series of rapprochement between states that were once at odds with one another. Apart from Saudi Arabia and Iran, Egypt has reconciled with both Turkey and Qatar, and the Arab League last month welcomed Syria back as a member after more than a decade of isolation.\n\nHaving failed to normalize ties with the West, Iran considers stronger ties with other countries in the Middle East as an alternative now, said Trita Parsi, vice-president of the Quincy Institute think tank in Washington, DC.\n\nThe region is also “discovering its own agency and its own diplomacy,” Parsi told CNN. “We are facing a new moment in which a new configuration is going take place in the region, and suddenly it is in everyone’s interest to maximize their maneuverability before the new order in the region is set.”\n\nMuch of this, added Parsi, is driven by the regional belief that the role of the US in the region, and in turn its protection of it, is waning.\n\nAnalysts say that while this round of normalization with Egypt is unlikely to be a difficult one, it may still come with complications as the two states share a unique history pitted with unsavory memories.\n\n“On paper, perhaps this should be an easier one because the countries are not actually in a direct conflict in the same way that Saudi Arabia and Iran were,” Parsi said. “They are on the opposite sides of different issues, but that’s different.”\n\nWhile ties between Egypt and Iran witnessed some tensions before the 1979 Islamic Revolution, they took an abrupt turn with Tehran’s new clerical rule.\n\nGamal Abdel Nasser, who suffered a crushing defeat in 1967 at Israel’s hands, was at odds with an Iranian Shah who was friendly with the Jewish state. Ties between Cairo and Tehran however improved after Nasser’s death as President Anwar Sadat sought to reach out to the Shah.\n\nBut Pahlavi, having ruled Iran since 1941, was toppled in the Islamic Revolution soon after, and it was Sadat’s Egypt that gave him refuge, infuriating the new clerical rulers in Tehran.\n\nThe Shah lived in Cairo until his death in 1980 at the age of 60. He was buried next to the Cairo Citadel, at Al-Rifa’I mosque where King Farouk is also buried, and a shrine was built for him.\n\nSadat was assassinated one year later by an Egyptian army officer named Khaled Islambouli, who opposed the president’s signing of a landmark normalization treaty with Israel in 1979. Iran’s Islamic Republic named a street in the capital after the assassin.",
-			"image": "https://media.cnn.com/api/v1/images/stellar/prod/230614152117-omans-sultan-cairo.jpg?c=16x9&q=h_720,w_1280,c_fill/f_webp",
-			"description": "Egypt's President Abdel Fattah al-Sisi shakes hands with Oman's Sultan Haitham bin Tariq in Cairo on May 21."
-		},
-		{
-			"id": 13,
-			"title": "Japan’s otherworldly disappearing desert By Claire Hannum",
-			"content": "Tottori Prefecture, Japan\nCNN\n — \nSprawling heaps of golden grains of sand rise in peaks toward the hot sun. From the base of the desert’s tallest dune, a bright blue sky peeks out from beyond the vast expanse.\n\nYou’d be forgiven for thinking you’d landed in the Middle East. But these are the Tottori Sand Dunes, wedged along the coast of Japan’s sparsely populated San’in region, the country’s very own slice of desert.\n\nThe dunes extend 16 kilometers (10 miles) across the coast, with their tallest peaks jutting over 45 meters (150 feet) high. They’ve been around for thousands of years, but are slowly disappearing – not because of climate change, but because of the community’s efforts to protect the planet.\n\nA dwindling treasure\nThe Tottori dunes are located on the western coast of Honshu, Japan’s largest and most populous island.\n\nTottori is Japan’s least populous prefecture. Osaka is about 200 km (124 miles) away; Hiroshima is 300 km (186) miles in the other direction.\n\nThe dunes were formed over the course of 100,000 years, as sand transported from the nearby Chūgoku Mountains via the Sendai River was deposited into the Sea of Japan. Over the centuries, wind and currents moved the sand back onto the shore.\n\nThe dunes were relatively unknown to those outside of Tottori until 1923, when they made their way into the writings of famed Japanese author Takeo Arishima, which sparked their ascent to a tourism hotspot.\n\nToday, the dunes are a central fixture of Tottori prefecture’s tourism industry, hosting an average of 1.2 million visitors per year. Tourists can visit a Sand Museum, go sandboarding and ride camels.\n\nThe dunes bring in millions each year in tourism earnings, but there’s a catch: they’re shrinking. The Tottori Sand Dunes are just 12% of the size that they were 100 years ago.",
-			"image": "https://media.cnn.com/api/v1/images/stellar/prod/230609155646-04-body-tottori-desert-japan-tourists.jpg?c=original&q=w_1280,c_fill",
-			"description": "By Claire Hannum\nPublished 10:04 PM EDT, Wed June 14, 2023"
-		},
-		{
-			"image": "https://dynaimage.cdn.cnn.com/cnn/digital-images/org/03228393-031b-4842-b7d5-99b48111fc95.jpg",
-			"content": "The US Defense Department on Tuesday announced it will supply 15 more Bradley fighting vehicles to Ukraine, just days after a report said Kyiv had lost multiple US-supplied armored vehicles in its counteroffensive against Russian invaders.\n\nThe Bradley fighting vehicle, which moves on tracks rather than wheels, can hold around 10 troops and is used to transport personnel into battle while providing supporting fire.\n\nThe Bradleys are part of a $325 million assistance package — the 40th presidential drawdown — that includes 10 Stryker armored personnel carriers, ammunition for surface-to-air missile systems and HIMARS rocket systems; Stinger shoulder-fired anti-aircraft systems and Javelin anti-armor systems; 155mm and 105mm artillery rounds, and small arms ammunition.\n\n“The United States and our allies and partners will stand united with Ukraine, for as long as it takes,” US Secretary of State Antony Blinken said in a statement Tuesday. \nSome context: Dutch open-source intelligence website Oryx, which has been collecting visual evidence of military equipment losses in Ukraine since Russia’s full-scale invasion began on February 24, 2022, reported earlier this week that 16 of Ukraine's Bradleys were either destroyed or damaged and abandoned in fighting in eastern Ukraine in recent days.",
-			"title": "Ukraine is getting more armored vehicles in latest US assistance package",
-			"description": "From CNN's Brad Lendon",
-			"id": 21
-		},
-		{
-			"id": 22,
-			"title": "Can conservation and tourism coexist?",
-			"image": "https://media.cnn.com/api/v1/images/stellar/prod/230609155631-01-body-tottori-desert-japan-camels.jpg?c=original&q=w_1280,c_fill",
-			"content": "It’s easy to assume that letting the dunes transition into a grassland would be better for the planet, but has the local government been more environmentally-minded than its own interests should call for?\n\nMany researchers feel that the dunes’ rare conditions make them worth preserving. At Tottori University’s Arid Land Research Center, scientists from around the world conduct dryland agricultural research.\n\n“The environmental conditions of the Tottori Sand Dunes are different from those of arid lands because of its humid climate,” Nagamatsu says. “But Tottori University is promoting arid land research using the ‘sand’ conditions of the Tottori Sand Dunes and experimental facilities.”\n\nDown the road from the research center, tourists are experiencing an otherworldly adventure in the sand.\n\nOn an average weekend at the dunes, visitors mill around gift shops choosing carefully wrapped omiyage (gift-worthy souvenirs) to bring to friends back home.\n\nThey buy tasty powdered-sugar ginger “sand cookies,” wander through the nearby sand museum and load up on soft-serve pear ice cream. Camels perch near the dunes’ main entrance for paid photo ops, and a local shop offers short “rentals” of time with their shiba inu puppy, who is happy to frolic with tourists on the hills.\n\nParagliders and sandboarders eagerly monitor the wind conditions for their perfect moment. At night, stargazers catch glimpses of the foxes, rabbits and tanuki (Japanese racoons) that call the dunes home.\n\n“When I went to Tottori Dunes, I was very happy,” says Anya Jarilla, who traveled to the dunes for the first time last year. “I can’t believe that there’s a place like that in Japan…To experience and see the place is beyond what I can imagine.”\n\nStaff members at the Tottori Sand Dunes Visitor Center comment that tourists often say they feel like kids again when they visit, running down hills at full speed and marveling at the sand’s ever-changing shapes.\n\nFrom Tottori Station, visitors can access the dunes by taxi or bus. Shops and museums are all within walking distance of the dunes and stay open until mid-afternoon. The dunes themselves are open 24/7 and free to enter. A range of affordable hotels and ryokans (traditional Japanese inns) are available in Tottori City, about a 10-minute taxi ride from the dunes.\n\nTottori is the least populated prefecture in Japan, far from the busy bullet train lines that connect tourists to the country’s most popular cities and sites. Getting there from Tokyo requires a transfer from the bullet train to a local train line, a domestic flight or a long drive – and the dunes offer a compelling reason for travelers to make the trek.\n\nThe national monument is a treasured literary staple and valued research site – but it’s also a financial anchor.",
-			"description": "On the ‘rooftop of Japan,’ a stunning 20-meter-deep snow corridor reopens to visitors"
-		},
-		{
-			"id": 23,
-			"title": "He ran out of countries to visit, so he created his own",
-			"image": "https://media.cnn.com/api/v1/images/stellar/prod/230412102851-02-body-slowjamastan-micronation.jpg?c=original&q=w_1280,c_fill",
-			"content": "Editor’s Note: Sign up for Unlocking the World, CNN Travel’s weekly newsletter. Get news about destinations opening, inspiration for future adventures, plus the latest in aviation, food and drink, where to stay and other travel developments.\n\n“I like to put it simply,” says Randy “R Dub!” Williams, a late-night “slow jams” DJ from San Diego who’s also known as “the Sultan of Slowjamastan.” “I ran out of countries, so I created my own.”\n\nA broadcaster by night, Williams has spent his life attempting to visit every country in the world. With just one UN-recognized nation left to visit, he decided to buy an 11.07-acre plot of empty arid land in the California desert to build a new “country” named after his radio show.\n\nWearing his best suit and sunglasses, the sultan of Slowjamastan officially declared independence from the United States of America at 12:26 p.m. on December 1, 2021 as he broadcast the secession live from his open-air government “office” in Dublândia, the capital of the Republic of Slowjamastan.\n\nTwo years on, and while the Sultan of Slowjamastan has instigated more than a few bizarre laws (he’s outlawed the wearing of Crocs, for example), the Republic also has all the trappings of a fledgling nation-state. It issues its own passports, flies its own flag, prints its own currency (“the duble”), and has a national anthem that’s played on state occasions.\n\nThe Republic of Slowjamastan even claims over 500 registered citizens, while 4,500 more are said to have been conditionally approved or are waiting in line for citizenship. Now that Williams is set to complete his lifetime goal of visiting every country in the world, he’s inviting tourists to visit the Republic of Slowjamastan as he plans to create the world’s foremost “micronation.”",
-			"description": "By Richard Collett, CNN\nUpdated 10:08 AM EDT, Thu June 8, 2023"
-		},
-		{
-			"id": 24,
-			"title": "In search of diplomatic recognition",
-			"image": "https://media.cnn.com/api/v1/images/stellar/prod/230412110631-01-card-slowjamastan-micronation.jpg?c=original&q=w_1280,c_fill",
-			"content": "Williams says he is working on creating diplomatic ties with other countries, and he’s had his Slowjamastan passport stamped by 16 different countries on his recent travels, including South Africa, New Zealand, Vanuatu, and the United States.\n\nHe makes it clear that Slowjamastan technically meets the criteria for a sovereign nation-state as defined by the 1933 Montevideo Convention, which is typically cited as the best definition of a country.\n\nThe Montevideo Convention requires a country to have a permanent population, a defined territory, a government and the capacity to enter into diplomatic relations with other states, all prerequisites which Williams claims the Republic of Slowjamastan has met.\n\nThe next stage is for the sultan to gain recognition of his micronation’s secession from the United States, although that might be a little far-fetched even for Williams.\n\n“I’m a little frustrated to admit that, despite emails and DMs to President Biden on Facebook, Twitter, Instagram, and MySpace, our messages have all been left unread,” explains Williams. “Perhaps they are stuck in his spam folder. We’re going with that.”",
-			"description": "\nMayumi Maruyama\nPublished 9:16 PM EDT, Thu June 8, 2023"
-		},
-		{
-			"id": 25,
-			"title": "Miriam Margolyes poses nude for British Vogue",
-			"image": "https://media.cnn.com/api/v1/images/stellar/prod/230614080654-02-vogue-pride-issue-miriam-margolyes-cover.jpg?c=original&q=w_1280,c_fill",
-			"content": "Actor Bella Ramsey, the youngest of those featured, expanded on their experience coming out as non-binary earlier this year. “I’ve fought that word for so long,” they said. “I didn’t want people to think I was just trying to be trendy. But it’s a very succinct way to describe to people who I am.”\n\nThe 19-year-old actor spoke highly of the affirming environment on-set of HBO’s post-apocalyptic series “The Last of Us,” in which they starred earlier this year. “The costume supervisor would put several different undergarments in my room: a regular bra, a binder, a sports bra. She’d say, ‘You just pick whatever is most comfortable for you today,’” Ramsey said. “There was never anyone pressuring me.” Binders are often used by trans or gender non-conforming individuals looking to reduce the external appearance of breast tissue.\n\n(HBO and HBO Max are also owned by CNN’s parent company, Warner Bros. Discovery)\n\nIn a separate interview with Vogue, 82-year-old Miriam Margolyes, who is perhaps best known for her role as Professor Pomona Sprout in the Harry Potter film series, reflected on the challenges she faced coming out as a lesbian in 1966, a time when homosexuality was still illegal in the UK. “I never had any shame about being gay or anything really. I knew it wasn’t criminal because it was me. I couldn’t be criminal,” she said. Her Jewish parents, according to the interview, were less accepting — reportedly forcing Margolyes to swear on the Torah that she would stop having sex with women.",
-			"description": "By Leah Dolan, CNN\nUpdated 11:53 AM EDT, Wed June 14, 2023"
-		}
-	]
+  "users": [
+    {
+      "id": 1,
+      "email": "a",
+      "password": "123"
+    },
+    {
+      "id": 2,
+      "email": "b",
+      "password": "123"
+    },
+    {
+      "email": "abcdef@gmail.com",
+      "password": "$2a$10$DPahNy2Bb0vddondkuk1vuttWUWfcCW1i//NucA31k53glPdxilJ6",
+      "id": 3
+    },
+    {
+      "email": "abcdef@gmail.com",
+      "password": "$2a$10$VcxUMZtSKgxtX1OyKLpRouWaOCHRHUjp7FOqtmd5.nC00KDHkYB8y",
+      "id": 4
+    },
+    {
+      "email": "test1@gmail.com",
+      "password": "$2a$10$a27LDsM0cUmay4fMIdeT7OjxrQNDOS/ZwRA.JMGAQ2s75a.3JjHA2",
+      "id": 5
+    },
+    {
+      "email": "a@gmail.comabc",
+      "password": "$2a$10$pTdvX6tBL2NYJot9oXOzeeNGd.nmR9KaPf1fG0IXqHA8fBs6XJ2vm",
+      "id": 6
+    },
+    {
+      "email": "a@gmail.comgk",
+      "password": "$2a$10$pfrDZ71/7bfSqmwy0W8aveTDWbIujNs5AZ6NybQu4RfAh4nRA3NgW",
+      "id": 7
+    },
+    {
+      "email": "ad@gmail.com",
+      "password": "$2a$10$sVF.jnJFl6TRug1xU3B6FO4JKqB04mvvPfzH7/W/UfD6ort8pnm1W",
+      "id": 8,
+      "is_admin": "true"
+    },
+    {
+      "email": "ad@gmail.com",
+      "password": "$2a$10$tQ76mMdS8U80Cgn9Erl.2./KEXvYfxW1D7iLl0MFm6VjL2MN2c3/i",
+      "id": 9,
+      "is_admin": "true"
+    },
+    {
+      "email": "test@gmail.com",
+      "password": "$2a$10$lfZr.onQRLEY3dz5YtSBBuGm5AYCjfnEwXCuHFL3wZv/o.y0I9M72",
+      "id": 10
+    },
+    {
+      "email": "admin@g.com",
+      "password": "$2a$10$Hnn8tHdoHMGuVli1psYVu.TP37Gdr2jqc9NjEvGbSXETOzvV54.bS",
+      "is_admin": "true",
+      "id": 11
+    },
+    {
+      "email": "admin-a@g.com",
+      "password": "$2a$10$QsfoPeHmenc8CEnl1mNpA.Y8xFK0lN/sUJ4m52bPCz8q2nm8a5Rxy",
+      "is_admin": "true",
+      "id": 12
+    },
+    {
+      "email": "b@g.com",
+      "password": "$2a$10$FdwHZ3uOUG/FSIVwdGcwxuXa92U1DMCqgFl9.OEgMFaFe8hu2RZSe",
+      "is_admin": "false",
+      "id": 13
+    },
+    {
+      "email": "a@gmail.comtest",
+      "password": "$2a$10$CIpu5HLCoaYRdBMwII2SHuAF2zr/27nXzjCdWjmJKP0jx.Y4lKjW6",
+      "is_admin": "false",
+      "id": 14
+    },
+    {
+      "email": "testuser@g.comtestchange",
+      "password": "$2a$10$.m7MF6Xi4gT3r8LPdO1X.Ots.0z46EXTvRzPNkx9LhVThUIJQ6twu",
+      "id": 15,
+      "avatar": "https://plus.unsplash.com/premium_photo-1667893494526-0b863b7824a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1Nnx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
+    },
+    {
+      "email": "hieunguyen12902@gmail.com",
+      "password": "$2a$10$IJapcw7TwIOgMIygtKniXO6CALiRSZQQUGOMKdQRnZa8lc0wenAAm",
+      "is_admin": "false",
+      "id": 16
+    },
+    {
+      "email": "hieunguyen123@gmail.com",
+      "password": "$2a$10$eS6kLFogFvawUr7RHReWK.6ub3vLrToNpUw6ZwK/.gQVzlxe6uX.u",
+      "is_admin": "false",
+      "id": 17
+    },
+    {
+      "email": "testnewreg@gmail.com",
+      "password": "$2a$10$eahdf7DJm5DdI47X/5YYq.9OEzszwEzAQwS5xF57ffhszZeSBIj2m",
+      "account_type": "user",
+      "id": 18
+    },
+    {
+      "email": "testnewreg-admin@gmail.com",
+      "password": "$2a$10$b0kIAl6dzIQvaGZfP2c8zOTEtlSFBVId5mw0MhHxLJolJ5lyDnxLG",
+      "account_type": "master",
+      "id": 19
+    },
+    {
+      "email": "hieunguyen321654987@gmail.com",
+      "password": "$2a$10$gG9i.YMNRtHgeHFtZ4LrceEIxNUwPI6dQR8GT5ARi5DjhIuBT/bNK",
+      "username": "Hieu12902",
+      "account_type": "master",
+      "name": "Hiếu Nguyễn",
+      "gender": "male",
+      "phone": "0782075575",
+      "id": 20
+    }
+  ],
+  "blogs": [
+    {
+      "id": 1,
+      "title": "IAEA director's visit to Zaporizhzhia nuclear plant delayed by a day, Russian state media reports",
+      "content": "The United Nations' nuclear watchdog chief has postponed his scheduled visit to the occupied Zaporizhzhia nuclear power plant in southern Ukraine by a day, according to a report in Russian state media Wednesday  \n\nInternational Atomic Energy Agency (IAEA) director Rafael Grossi's visit slated for Wednesday has been delayed to Thursday, Renat Karchaa, an adviser to the director general of Russia’s Rosenergoatom nuclear firm, told state-run news agency TASS in the report.\n\n\"[His] mission has been put off till the next day,\" Karchaa told TASS.\n\nFollowing a meeting with Ukrainian President Volodymyr Zelensky in Kyiv Tuesday, Grossi said he was concerned about the possibility the nuclear plant could be caught up in Ukraine’s counteroffensive against Russia.\n\nHe had initially announced he would go to the plant on Wednesday to assess the situation. \n\n“We are enlarging the team, so we are trying to make our process as visible, as impactful as possible to avoid a nuclear accident,” Grossi told a news briefing in Kyiv.\nCNN has reached out to the IAEA to ask about Grossi's visit to the plant\n\nFlood impacts: The nuclear plant receives cooling water that's critical for safety from a nearby thermal plant that is fed upstream from the reservoir adjacent to the Nova Kakhovka dam that collapsed last week.\n\nOn Sunday, the IAEA said it needed access to a location near the plant to determine water levels at the reservoir to clarify a discrepancy between measurements following the dam's collapse.\n\nKyiv and Moscow have traded accusations over the dam’s destruction, without providing concrete proof that the other is culpable. The dam was occupied by Russia at the time of its collapse but is not yet clear whether it was deliberately attacked or if the breach was the result of structural failure.",
+      "image": "https://dynaimage.cdn.cnn.com/cnn/digital-images/org/3dede167-a4c8-4a59-ad64-3837ad881555.jpg",
+      "description": "From CNN's Duarte Mendonca and Sandi Sidhu"
+    },
+    {
+      "id": 2,
+      "title": "Russian attacks kill at least 3 civilians in Donetsk, Ukrainian official says",
+      "content": "Three people were killed and three others wounded in Donetsk following \"morning shelling\" by Russian forces early Wednesday, the eastern region's military chief said.\n\nIn a statement on Telegram, Pavlo Kyrylenko, head of the Donetsk region military administration, said initial information indicated rocket attacks killed two and injured two others in Kramatorsk, while one person died and another was wounded in Kostiantynivka.\n\nThe attacks caused \"significant damage\" to dozens of homes in the two cities, Kyrylenko said.\n\nRescuers were working at the impacted areas, he added.\n\nIn an earlier statement, Ukraine's air force said Russian forces had launched six Kh-22 air-launched cruise missiles targeting Donetsk from Russia's neighboring Rostov region.",
+      "image": "https://dynaimage.cdn.cnn.com/cnn/digital-images/org/8aa097e9-36fb-4af1-b3d3-01322d89632f.jpg",
+      "description": "From CNN's Olga Voitovych in Kyiv "
+    },
+    {
+      "id": 3,
+      "title": "NATO warplanes fly over Germany in alliance’s largest-ever aerial drills",
+      "content": "As the early stages of Ukraine’s counteroffensive against Russian invaders is unfolding on the battlefield, hundreds of warplanes from some of Kyiv’s biggest supporters are in the skies over Germany as NATO holds its largest aerial war games ever.\n\n“Air Defender 2023” is bringing together 250 warplanes — including 190 fighter jets — and 10,000 troops in drills designed to boost the alliance’s preparedness and ability “to protect against aircraft, drones and missile attacks on cities and critical infrastructure,” according to a NATO press release.\n\nThough the German-led exercises have been in the works for several years, their timing as Moscow unleashes punishing air attacks on Ukrainian cities as part of the now 16-month invasion of its neighbor sends a timely message, especially to Russian President Vladimir Putin.\n\nThe North Atlantic Treaty Organization was formed in the aftermath of World War II to defend Western nations from the Soviet Union and the alliance contains a mutual defense clause where an attack on any one member is considered an attack on all.\n\nSince Russia’s full-scale invasion began in February 2022, the worry in NATO is that the destruction Moscow has wreaked on Ukraine’s cities could spill beyond the country’s borders.\n\nNATO members’ military support for Ukraine, including tanks, armored vehicles and other weaponry being used in Kyiv’s current offensive, has consistently produced threats of retaliation from Russia.\n\nAlliance members are making plans to supply Ukraine with F-16 fighter jets of the same variety that are participating in the current war games.",
+      "image": "https://dynaimage.cdn.cnn.com/cnn/digital-images/org/022abedf-a059-4973-b548-bb3e2c087a99.jpg",
+      "description": "From CNN's Brad Lendon"
+    },
+    {
+      "id": 4,
+      "title": "Ukraine's air force says it shot down 12 out of 20 Russian missiles and drones launched overnight",
+      "content": "Russia launched cruise missiles and drones at targets across Ukraine overnight, Ukraine's air force said Wednesday.\n\nIn a statement, the air force said 12 out of 20 missiles and drones fired by Russia were intercepted by Ukrainian air defenses.\n\nRussia fired four Kalibr cruise missiles from the Black Sea in the direction of Odesa, three of which were shot down, it said. Ukrainian authorities said earlier that at least three people were killed and 13 others were wounded in the attack on the southern port city.\n\nRussian forces also launched six Kh-22 air-launched cruise missiles from Tu-22M3 long-range bombers targeting Donetsk from Russia's Rostov region, according to Ukraine's air force.\n\nThe impact of those missiles is unclear at the moment. \n\nRussia also launched 10 Iran-made attack drones on southeastern Ukraine, nine of which were shot down, the air force said.\n\n\"The Air Force, in cooperation with the air defense of the Ukrainian Defense Forces, destroyed 12 air targets during this night attack: three Kalibr cruise missiles and nine Iranian Shahed-136/131 attack drones,\" the air force statement said.\nThis post has been updated.",
+      "image": "https://dynaimage.cdn.cnn.com/cnn/digital-images/org/23d3822a-674f-4806-8c3c-cc394fc68aef.jpg",
+      "description": "From CNN's Olga Voitovych in Kyiv"
+    },
+    {
+      "id": 5,
+      "title": "Russian missile attack kills at least 3 in Odesa, Ukraine's military says",
+      "content": "At least three people died and 13 others were wounded on Wednesday after Russia fired four cruise missiles from the Black Sea at Ukraine's southern port city of Odesa, Ukrainian authorities said.\n\nIn a statement, Ukraine's Operational Command South said the strikes killed at least three people and injured seven others at a retail chain warehouse. Victims might still be trapped under the rubble there, it said.\n\nSix other people were injured at another location in the city center, where the attack damaged a business center, an educational institution, a residential complex, restaurants and shops, the statement added.\n\nThe attack comes after 11 people were killed, including a child, in Russian missile strikes on the central city of Kryvyi Rih on Tuesday, according to Ukrainian officials.",
+      "image": "https://dynaimage.cdn.cnn.com/cnn/digital-images/org/333c5783-9dfe-42df-8aba-2b927f4df0fe.jpg",
+      "description": "From CNN's Olga Voitovych in Kyiv "
+    },
+    {
+      "id": 6,
+      "title": "Biden and NATO chief express desire for Sweden to join defense alliance \"as soon as possible\"",
+      "content": "US President Joe Biden and NATO Secretary General Jens Stoltenberg on Tuesday reaffirmed their wish for Sweden to join NATO.\n\nDuring a meeting in Washington, DC, the two leaders “underscored their shared desire to welcome Sweden to the Alliance as soon as possible,” according to a White House readout.\n\nSweden signaled its intention to join NATO in May last year following Russia's full-scale invasion of Ukraine but its accession is being blocked by Turkey and Hungary.\n\nThe White House readout said Biden and Stoltenberg also discussed “the implications of Russia’s war on Ukraine for transatlantic security and the importance of continuing to strengthen NATO’s deterrence and defense.”\n\n\"They welcomed the support that Allies and partners are providing bilaterally to help Ukraine defend itself from Russian aggression,\" it added.\nEarlier, Stoltenberg said Ukraine's recent gains on the battlefield underscored the need for continued Western assistance to give Kyiv a \"stronger hand\" in any future negotiations with Moscow.\n\nThe meeting Tuesday comes ahead of a NATO Summit in Vilnius in July. ",
+      "image": "https://dynaimage.cdn.cnn.com/cnn/digital-images/org/d81121c4-a942-4165-ae73-d00ccba3dfd3.jpg",
+      "description": "From CNN's Mary Kay Mallonee"
+    },
+    {
+      "id": 7,
+      "title": "Russia calls for \"transparent\" investigation into Nord Stream pipeline attacks",
+      "content": "A Russian diplomat in the United States on Tuesday called for a \"transparent\" investigation into last September’s Nord Stream pipeline attacks, following a report from the Netherlands' public broadcaster that said Dutch military intelligence warned the CIA last year about an alleged Ukrainian plan to blow up the gas pipelines three months before they were hit.\n\nIn a Telegram post, Andrey Ledenev, Minister-Counselor at the Russian Embassy in Washington, DC, also said the role of the US in the blasts should be \"clarified.\"\n\n“It could be fruitful to ponder the unwillingness of the collective West to allow a transparent and objective international investigation, the terrorist attacks in the Baltic Sea, under the auspices of the UN Security Council, and to clarify the role of the U.S. in sabotaging the pipelines, factoring in [the US] being a direct beneficiary of the reshaping of the European energy market,” Ledenev said on the embassy's official Telegram account.\nBased on information from three US officials, CNN reported last week that the US received intelligence from a European ally last year that the Ukrainian military was planning an attack on the pipelines.\n\nLast September, leaks caused by underwater explosions were discovered in the Nord Stream 1 and 2 pipelines, which funnel gas from Russia into the European Union and run under the Baltic Sea. \n\nUkraine denied any responsibility for the leaks at the time, and the attack has been condemned by US officials and Western allies. It is currently being investigated by other European nations.  \n\n“We urge local authorities not to hide behind references to the alleged sufficiency of ongoing national investigations,” Ledenev said in the Telegram post. “They should act with deeds not words, to help shed light on the true circumstances surrounding the sabotage.”\nPrevious reporting from CNN’s Mick Krever, Alex Marquardt, Sarah Dean, Sugam Pokharel, Natasha Bertrand, Alex Marquardt and Haley Britzky ",
+      "image": "https://dynaimage.cdn.cnn.com/cnn/digital-images/org/04f84bd9-5364-4519-8fdc-8fa309e0792e.jpg",
+      "description": "From CNN's Josh Pennington"
+    },
+    {
+      "id": 8,
+      "title": "Ukraine claims battlefield advances in fierce fighting. Catch up on the latest headlines here",
+      "content": "Ukraine's top general said his troops have seen \"certain gains\" in their offensive and are \"moving forward,\" as fighting rages along the border of the Donetsk and Zaporizhzhia regions. \n\n“Both defensive and offensive fierce fighting is ongoing in the East and South of our nation. We have certain gains, implementing our plans, moving forward,” Gen. Valerii Zaluzhnyi said in a Facebook post. \n\nNATO's chief said Tuesday that Ukraine's gains on the battlefield underscore the need for continued Western assistance to give Kyiv a \"stronger hand\" in any future negotiations with Moscow.\n\nHere's the latest news from Russia's war in Ukraine:\n\nUkraine claims advances: Kyiv's troops are fighting fiercely to drive back the Russians along the border of the Donetsk and Zaporizhzhia regions, a Ukrainian commander said. Brig. Gen. Oleksandr Tarnavskyi, commander of the Tavria Operational and Strategic Group of Forces, said his troops are \"systematically destroying Russian manpower and equipment.\" CNN cannot independently verify battlefield claims. However, both sides have reported clashes in the area.\nA Russian view: \"Ukraine's offensive potential is far, far from exhausted,\" said Yevgeny Prigozhin, the head of Russia's Wagner mercenary group. Prigozhin also said he doesn't know if his fighters will remain in Ukraine amid an ongoing dispute with Russia’s Defense Ministry.\nRussian attacks: Ukrainian President Volodymyr Zelensky said a child was among 11 people killed in a Russian missile strike in the city of Kryvyi Rih on Tuesday. Meanwhile, in the northeastern Sumy region, at least seven forestry workers were killed by Russian shelling, a Ukrainian official said. Elsewhere in Sumy, a boarding school was hit by Russian shelling, forcing 135 children to evacuate, officials said.\nEuropean aid: Zelensky on Tuesday thanked the British-led alliance of multiple European countries for their latest air defense aid for Kyiv. The Joint Expeditionary Force had announced \"a powerful assistance package worth over €100 million [$108 million] to strengthen [Ukrainian] air defense,\" he said.\nDam collapse: The UN said the Nova Kakhovka dam collapse in southern Ukraine will have a \"huge impact\" on global food security, with prices likely to increase. Water levels are receding, but some settlements remain flooded, Ukrainian officials said. \nMeanwhile, on the front line: A Ukrainian military official on Tuesday reiterated accusations that Russian forces are blowing up small dams in areas where Ukrainian troops are on the offensive. The results were not large-scale and affected the agricultural land of one or two villages, according to Ukraine's Military Media Center.\nNord stream report: The Netherlands' public broadcaster NOS reported on Tuesday that Dutch military intelligence warned the CIA last year about an alleged Ukrainian plan to blow up the Nord Stream pipelines three months before they were hit. The report, which did not specify a source, was based on a joint investigation by NOS, Dutch television news show Nieuwsuur and two German outlets.",
+      "image": "https://dynaimage.cdn.cnn.com/cnn/digital-images/org/24f6e329-5f85-4e10-b0f6-5404ce23dbb0.jpg",
+      "description": "From CNN staff"
+    },
+    {
+      "id": 9,
+      "title": "Child among 11 killed in Kryvyi Rih strike, Zelensky says",
+      "content": "A child was among the 11 people killed after a missile attack by Russia on an apartment building in the central Ukrainian city of Kryvyi Rih on Tuesday, Ukrainian President Volodymyr Zelensky said in his nightly address.\n\nZelensky said rescue operations and clearing of rubble had concluded, and sent his condolences to the families and loved ones of the victims. He added that more than 30 people were injured, all of whom are being provided with assistance.\n\nA day of mourning for the victims has been declared on Wednesday. \n\n\n",
+      "image": "https://dynaimage.cdn.cnn.com/cnn/digital-images/org/1d1529fb-7396-4a57-b027-daec89262ee0.jpg",
+      "description": "From CNN's Yulia Kesaieva \n\n"
+    },
+    {
+      "id": 10,
+      "title": "Ukrainians fighting to drive back Russian forces in Donetsk and Zaporizhzhia, commander says",
+      "content": "A Ukrainian military commander said Tuesday that soldiers are fighting fiercely to drive back Russian forces along the border of the Donetsk and Zaporizhzhia regions.\n\n“In the Tavria sector, the Ukrainian defense forces are systematically destroying Russian manpower and equipment,” said Brig. Gen. Oleksandr Tarnavskyi, commander of the Tavria Operational and Strategic Group of Forces, whose troops are targeting occupied areas of Zaporizhzhia and the parts of Donetsk that border it.\n“Missile and artillery units of the Ukrainian defense forces in the Tavria sector carried out 1,504 firing missions over the last day,” he said, adding that “an enemy ammunition depot was also destroyed.\"\nCNN cannot independently verify battlefield claims.\n\nHowever, both sides have reported clashes in the Donetsk and Zaporizhzhia regions.",
+      "image": "https://dynaimage.cdn.cnn.com/cnn/digital-images/org/7d869d63-c858-43b1-bce9-52fce8c69d31.jpg",
+      "description": "From CNN's Yulia Kesaieva"
+    },
+    {
+      "id": 11,
+      "title": "After Saudi Arabia, Iran may be patching up with its oldest Arab foe",
+      "content": "It was perhaps the first royal wedding of its stature to have been filmed in the Middle East.\n\nThe year was 1939, when Princess Fawzia of Egypt tied the knot with Iran’s Crown Prince Mohammad Reza Pahlavi, interlocking the royal households of two of the Middle East’s most prominent nations in a strategic alliance.\n\nThousands of people had gathered for the event at Cairo’s Abdine Palace, where the wedding was marked with fireworks and a parade showcasing the two nations’ civilizations.\n\nPrincess Fawzia was the eldest sister of King Farouk I – Egypt’s last monarch – and was just 17 years old when she married Pahlavi, who two years later ascended to the throne and became Shah of Iran. Fawzia filed for divorce in 1945, and the divorce was recognized by Tehran in 1948.\n\nForty years after the wedding, Pahlavi was overthrown in an Islamic revolution that changed the course of Iranian relations with Arab states, and sent Iranian-Egyptian ties in particular on a downward spiral from which the two nations have never emerged.\n\nIran’s Supreme Leader Ayatollah Ali Khamenei last week publicly endorsed normalizing ties with Egypt, the most populous Arab country, saying that Iran “welcomes Egypt’s interest in restoring relations.”\n\n“We have no problem in this regard,” he tweeted.\n\nMedia reports have touted a potential détente between the two countries after Oman’s Sultan Haitham Bin Tariq visited both last month in what was seen as an attempt to broker a reconciliation.\n\nKhamenei’s recent comments come as Saudi Arabia normalizes ties with Iran after nearly eight years of a diplomatic freeze. Iran reopened its embassy and consulate in Saudi Arabia last week.\n\n“Iran is always looking for more cooperation in the wider Arab region, and normalization with Egypt, traditionally allied with the United States, would be something of a prize for Tehran,” HA Hellyer, a scholar at the Carnegie Endowment for International Peace in London, told CNN.",
+      "image": "https://media.cnn.com/api/v1/images/stellar/prod/230614121618-princess-fawzia-and-prince-pahlavi-wedding-033039.jpg?c=16x9&q=h_720,w_1280,c_fill/f_webp",
+      "description": "By Nadeen Ebrahim, CNN\nUpdated 3:31 PM EDT, Wed June 14, 2023"
+    },
+    {
+      "id": 12,
+      "title": "A ‘prize’ for Tehran",
+      "content": "“Even if not accurate, the narrative would be that Tehran is strengthening its own position at the expense of the United States,” he said, noting that for Egypt, interest isn’t as high on the agenda as “Tehran doesn’t really provide much to Cairo.”\n\nThe wider region has been witnessing a series of rapprochement between states that were once at odds with one another. Apart from Saudi Arabia and Iran, Egypt has reconciled with both Turkey and Qatar, and the Arab League last month welcomed Syria back as a member after more than a decade of isolation.\n\nHaving failed to normalize ties with the West, Iran considers stronger ties with other countries in the Middle East as an alternative now, said Trita Parsi, vice-president of the Quincy Institute think tank in Washington, DC.\n\nThe region is also “discovering its own agency and its own diplomacy,” Parsi told CNN. “We are facing a new moment in which a new configuration is going take place in the region, and suddenly it is in everyone’s interest to maximize their maneuverability before the new order in the region is set.”\n\nMuch of this, added Parsi, is driven by the regional belief that the role of the US in the region, and in turn its protection of it, is waning.\n\nAnalysts say that while this round of normalization with Egypt is unlikely to be a difficult one, it may still come with complications as the two states share a unique history pitted with unsavory memories.\n\n“On paper, perhaps this should be an easier one because the countries are not actually in a direct conflict in the same way that Saudi Arabia and Iran were,” Parsi said. “They are on the opposite sides of different issues, but that’s different.”\n\nWhile ties between Egypt and Iran witnessed some tensions before the 1979 Islamic Revolution, they took an abrupt turn with Tehran’s new clerical rule.\n\nGamal Abdel Nasser, who suffered a crushing defeat in 1967 at Israel’s hands, was at odds with an Iranian Shah who was friendly with the Jewish state. Ties between Cairo and Tehran however improved after Nasser’s death as President Anwar Sadat sought to reach out to the Shah.\n\nBut Pahlavi, having ruled Iran since 1941, was toppled in the Islamic Revolution soon after, and it was Sadat’s Egypt that gave him refuge, infuriating the new clerical rulers in Tehran.\n\nThe Shah lived in Cairo until his death in 1980 at the age of 60. He was buried next to the Cairo Citadel, at Al-Rifa’I mosque where King Farouk is also buried, and a shrine was built for him.\n\nSadat was assassinated one year later by an Egyptian army officer named Khaled Islambouli, who opposed the president’s signing of a landmark normalization treaty with Israel in 1979. Iran’s Islamic Republic named a street in the capital after the assassin.",
+      "image": "https://media.cnn.com/api/v1/images/stellar/prod/230614152117-omans-sultan-cairo.jpg?c=16x9&q=h_720,w_1280,c_fill/f_webp",
+      "description": "Egypt's President Abdel Fattah al-Sisi shakes hands with Oman's Sultan Haitham bin Tariq in Cairo on May 21."
+    },
+    {
+      "id": 13,
+      "title": "Japan’s otherworldly disappearing desert By Claire Hannum",
+      "content": "Tottori Prefecture, Japan\nCNN\n — \nSprawling heaps of golden grains of sand rise in peaks toward the hot sun. From the base of the desert’s tallest dune, a bright blue sky peeks out from beyond the vast expanse.\n\nYou’d be forgiven for thinking you’d landed in the Middle East. But these are the Tottori Sand Dunes, wedged along the coast of Japan’s sparsely populated San’in region, the country’s very own slice of desert.\n\nThe dunes extend 16 kilometers (10 miles) across the coast, with their tallest peaks jutting over 45 meters (150 feet) high. They’ve been around for thousands of years, but are slowly disappearing – not because of climate change, but because of the community’s efforts to protect the planet.\n\nA dwindling treasure\nThe Tottori dunes are located on the western coast of Honshu, Japan’s largest and most populous island.\n\nTottori is Japan’s least populous prefecture. Osaka is about 200 km (124 miles) away; Hiroshima is 300 km (186) miles in the other direction.\n\nThe dunes were formed over the course of 100,000 years, as sand transported from the nearby Chūgoku Mountains via the Sendai River was deposited into the Sea of Japan. Over the centuries, wind and currents moved the sand back onto the shore.\n\nThe dunes were relatively unknown to those outside of Tottori until 1923, when they made their way into the writings of famed Japanese author Takeo Arishima, which sparked their ascent to a tourism hotspot.\n\nToday, the dunes are a central fixture of Tottori prefecture’s tourism industry, hosting an average of 1.2 million visitors per year. Tourists can visit a Sand Museum, go sandboarding and ride camels.\n\nThe dunes bring in millions each year in tourism earnings, but there’s a catch: they’re shrinking. The Tottori Sand Dunes are just 12% of the size that they were 100 years ago.",
+      "image": "https://media.cnn.com/api/v1/images/stellar/prod/230609155646-04-body-tottori-desert-japan-tourists.jpg?c=original&q=w_1280,c_fill",
+      "description": "By Claire Hannum\nPublished 10:04 PM EDT, Wed June 14, 2023"
+    },
+    {
+      "image": "https://dynaimage.cdn.cnn.com/cnn/digital-images/org/03228393-031b-4842-b7d5-99b48111fc95.jpg",
+      "content": "The US Defense Department on Tuesday announced it will supply 15 more Bradley fighting vehicles to Ukraine, just days after a report said Kyiv had lost multiple US-supplied armored vehicles in its counteroffensive against Russian invaders.\n\nThe Bradley fighting vehicle, which moves on tracks rather than wheels, can hold around 10 troops and is used to transport personnel into battle while providing supporting fire.\n\nThe Bradleys are part of a $325 million assistance package — the 40th presidential drawdown — that includes 10 Stryker armored personnel carriers, ammunition for surface-to-air missile systems and HIMARS rocket systems; Stinger shoulder-fired anti-aircraft systems and Javelin anti-armor systems; 155mm and 105mm artillery rounds, and small arms ammunition.\n\n“The United States and our allies and partners will stand united with Ukraine, for as long as it takes,” US Secretary of State Antony Blinken said in a statement Tuesday. \nSome context: Dutch open-source intelligence website Oryx, which has been collecting visual evidence of military equipment losses in Ukraine since Russia’s full-scale invasion began on February 24, 2022, reported earlier this week that 16 of Ukraine's Bradleys were either destroyed or damaged and abandoned in fighting in eastern Ukraine in recent days.",
+      "title": "Ukraine is getting more armored vehicles in latest US assistance package",
+      "description": "From CNN's Brad Lendon",
+      "id": 21
+    },
+    {
+      "id": 22,
+      "title": "Can conservation and tourism coexist?",
+      "image": "https://media.cnn.com/api/v1/images/stellar/prod/230609155631-01-body-tottori-desert-japan-camels.jpg?c=original&q=w_1280,c_fill",
+      "content": "It’s easy to assume that letting the dunes transition into a grassland would be better for the planet, but has the local government been more environmentally-minded than its own interests should call for?\n\nMany researchers feel that the dunes’ rare conditions make them worth preserving. At Tottori University’s Arid Land Research Center, scientists from around the world conduct dryland agricultural research.\n\n“The environmental conditions of the Tottori Sand Dunes are different from those of arid lands because of its humid climate,” Nagamatsu says. “But Tottori University is promoting arid land research using the ‘sand’ conditions of the Tottori Sand Dunes and experimental facilities.”\n\nDown the road from the research center, tourists are experiencing an otherworldly adventure in the sand.\n\nOn an average weekend at the dunes, visitors mill around gift shops choosing carefully wrapped omiyage (gift-worthy souvenirs) to bring to friends back home.\n\nThey buy tasty powdered-sugar ginger “sand cookies,” wander through the nearby sand museum and load up on soft-serve pear ice cream. Camels perch near the dunes’ main entrance for paid photo ops, and a local shop offers short “rentals” of time with their shiba inu puppy, who is happy to frolic with tourists on the hills.\n\nParagliders and sandboarders eagerly monitor the wind conditions for their perfect moment. At night, stargazers catch glimpses of the foxes, rabbits and tanuki (Japanese racoons) that call the dunes home.\n\n“When I went to Tottori Dunes, I was very happy,” says Anya Jarilla, who traveled to the dunes for the first time last year. “I can’t believe that there’s a place like that in Japan…To experience and see the place is beyond what I can imagine.”\n\nStaff members at the Tottori Sand Dunes Visitor Center comment that tourists often say they feel like kids again when they visit, running down hills at full speed and marveling at the sand’s ever-changing shapes.\n\nFrom Tottori Station, visitors can access the dunes by taxi or bus. Shops and museums are all within walking distance of the dunes and stay open until mid-afternoon. The dunes themselves are open 24/7 and free to enter. A range of affordable hotels and ryokans (traditional Japanese inns) are available in Tottori City, about a 10-minute taxi ride from the dunes.\n\nTottori is the least populated prefecture in Japan, far from the busy bullet train lines that connect tourists to the country’s most popular cities and sites. Getting there from Tokyo requires a transfer from the bullet train to a local train line, a domestic flight or a long drive – and the dunes offer a compelling reason for travelers to make the trek.\n\nThe national monument is a treasured literary staple and valued research site – but it’s also a financial anchor.",
+      "description": "On the ‘rooftop of Japan,’ a stunning 20-meter-deep snow corridor reopens to visitors"
+    },
+    {
+      "id": 23,
+      "title": "He ran out of countries to visit, so he created his own",
+      "image": "https://media.cnn.com/api/v1/images/stellar/prod/230412102851-02-body-slowjamastan-micronation.jpg?c=original&q=w_1280,c_fill",
+      "content": "Editor’s Note: Sign up for Unlocking the World, CNN Travel’s weekly newsletter. Get news about destinations opening, inspiration for future adventures, plus the latest in aviation, food and drink, where to stay and other travel developments.\n\n“I like to put it simply,” says Randy “R Dub!” Williams, a late-night “slow jams” DJ from San Diego who’s also known as “the Sultan of Slowjamastan.” “I ran out of countries, so I created my own.”\n\nA broadcaster by night, Williams has spent his life attempting to visit every country in the world. With just one UN-recognized nation left to visit, he decided to buy an 11.07-acre plot of empty arid land in the California desert to build a new “country” named after his radio show.\n\nWearing his best suit and sunglasses, the sultan of Slowjamastan officially declared independence from the United States of America at 12:26 p.m. on December 1, 2021 as he broadcast the secession live from his open-air government “office” in Dublândia, the capital of the Republic of Slowjamastan.\n\nTwo years on, and while the Sultan of Slowjamastan has instigated more than a few bizarre laws (he’s outlawed the wearing of Crocs, for example), the Republic also has all the trappings of a fledgling nation-state. It issues its own passports, flies its own flag, prints its own currency (“the duble”), and has a national anthem that’s played on state occasions.\n\nThe Republic of Slowjamastan even claims over 500 registered citizens, while 4,500 more are said to have been conditionally approved or are waiting in line for citizenship. Now that Williams is set to complete his lifetime goal of visiting every country in the world, he’s inviting tourists to visit the Republic of Slowjamastan as he plans to create the world’s foremost “micronation.”",
+      "description": "By Richard Collett, CNN\nUpdated 10:08 AM EDT, Thu June 8, 2023"
+    },
+    {
+      "id": 24,
+      "title": "In search of diplomatic recognition",
+      "image": "https://media.cnn.com/api/v1/images/stellar/prod/230412110631-01-card-slowjamastan-micronation.jpg?c=original&q=w_1280,c_fill",
+      "content": "Williams says he is working on creating diplomatic ties with other countries, and he’s had his Slowjamastan passport stamped by 16 different countries on his recent travels, including South Africa, New Zealand, Vanuatu, and the United States.\n\nHe makes it clear that Slowjamastan technically meets the criteria for a sovereign nation-state as defined by the 1933 Montevideo Convention, which is typically cited as the best definition of a country.\n\nThe Montevideo Convention requires a country to have a permanent population, a defined territory, a government and the capacity to enter into diplomatic relations with other states, all prerequisites which Williams claims the Republic of Slowjamastan has met.\n\nThe next stage is for the sultan to gain recognition of his micronation’s secession from the United States, although that might be a little far-fetched even for Williams.\n\n“I’m a little frustrated to admit that, despite emails and DMs to President Biden on Facebook, Twitter, Instagram, and MySpace, our messages have all been left unread,” explains Williams. “Perhaps they are stuck in his spam folder. We’re going with that.”",
+      "description": "\nMayumi Maruyama\nPublished 9:16 PM EDT, Thu June 8, 2023"
+    },
+    {
+      "id": 25,
+      "title": "Miriam Margolyes poses nude for British Vogue",
+      "image": "https://media.cnn.com/api/v1/images/stellar/prod/230614080654-02-vogue-pride-issue-miriam-margolyes-cover.jpg?c=original&q=w_1280,c_fill",
+      "content": "Actor Bella Ramsey, the youngest of those featured, expanded on their experience coming out as non-binary earlier this year. “I’ve fought that word for so long,” they said. “I didn’t want people to think I was just trying to be trendy. But it’s a very succinct way to describe to people who I am.”\n\nThe 19-year-old actor spoke highly of the affirming environment on-set of HBO’s post-apocalyptic series “The Last of Us,” in which they starred earlier this year. “The costume supervisor would put several different undergarments in my room: a regular bra, a binder, a sports bra. She’d say, ‘You just pick whatever is most comfortable for you today,’” Ramsey said. “There was never anyone pressuring me.” Binders are often used by trans or gender non-conforming individuals looking to reduce the external appearance of breast tissue.\n\n(HBO and HBO Max are also owned by CNN’s parent company, Warner Bros. Discovery)\n\nIn a separate interview with Vogue, 82-year-old Miriam Margolyes, who is perhaps best known for her role as Professor Pomona Sprout in the Harry Potter film series, reflected on the challenges she faced coming out as a lesbian in 1966, a time when homosexuality was still illegal in the UK. “I never had any shame about being gay or anything really. I knew it wasn’t criminal because it was me. I couldn’t be criminal,” she said. Her Jewish parents, according to the interview, were less accepting — reportedly forcing Margolyes to swear on the Torah that she would stop having sex with women.",
+      "description": "By Leah Dolan, CNN\nUpdated 11:53 AM EDT, Wed June 14, 2023"
+    }
+  ]
 }

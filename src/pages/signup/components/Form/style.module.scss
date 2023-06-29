@@ -1,0 +1,59 @@
+.wrapper {
+	.formGroup {
+		margin-bottom: 15px;
+		.input {
+			height: 2.8rem;
+		}
+	}
+	.required {
+		color: red;
+		font-size: 13px;
+		margin-top: 5px;
+	}
+}
+.checkboxGroup {
+	display: flex;
+	align-items: center;
+	justify-self: space-between;
+}
+
+.btnSide {
+	width: 100%;
+	height: 40px;
+	background-color: rgb(65, 146, 217);
+	border-radius: 0.25rem;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+	cursor: pointer;
+}
+.forgotPassword {
+	text-align: right;
+	font-size: 14px;
+	color: #0074d8;
+}
+
+$SM: 800px;
+$MD: 1070px;
+$XL: 1440px;
+
+@media only screen and (max-width: $XL) {
+	.signupSide {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		margin-top: 10px;
+	}
+}
+@media only screen and (max-width: $MD) {
+	.signupSide {
+		display: flex;
+		flex-direction: column;
+	}
+}
+@media only screen and (max-width: $SM) {
+	.signupSide {
+		display: flex;
+		flex-direction: column;
+	}
+}

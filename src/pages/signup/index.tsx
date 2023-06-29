@@ -3,51 +3,43 @@
 import React from 'react'
 import PermissionLayout from '@/layouts/PermissionLayout'
 import classes from './style.module.scss'
-import { LoginForm } from './components'
-import { userStore } from '@/store/userStore'
-import { ADMIN_ROUTES, APP_ROUTES } from '@/utils/routers'
+import { SignupForm } from './components'
+import { APP_ROUTES } from '@/utils/routers'
 import { useRouter } from 'next/router'
-import { useSetRecoilState } from 'recoil'
-import { Modal } from 'antd'
 import * as AuthAPI from '@/api/AuthAPI'
-import { LoginResponse } from '@/types/models/auth'
+import { Modal } from 'antd'
+
 interface FormData {
+	username: string
 	email: string
 	password: string
+	account_type: string
+	name: string
+	dob: string
+	gender: number
+	phone: string
 }
 
-export default function LoginPage() {
+export default function SignupPage() {
 	const router = useRouter()
-	const setUserState = useSetRecoilState(userStore)
 	const onSubmit = async (data: FormData) => {
 		try {
-			const res: LoginResponse = await AuthAPI.login({
+			await AuthAPI.signup({
+				username: data?.username,
 				email: data?.email,
 				password: data?.password,
+				account_type: data?.account_type || 'normal',
+				name: data?.name,
+				dob: data?.dob,
+				gender: data?.gender,
+				phone: data?.phone,
 			})
-			const { id, email, username, account_type, name, gender, phone } =
-				res?.user
-			const token = res?.accessToken
-			setUserState({
-				id,
-				email,
-				username,
-				account_type,
-				name,
-				gender,
-				phone,
-				token,
-			})
-			if (token && account_type === 'master') {
-				router.push(ADMIN_ROUTES.DASHBOARD)
-			} else if (token && account_type === 'normal') {
-				router.push(APP_ROUTES.HOME)
-			}
+			router.push(APP_ROUTES.LOGIN)
 		} catch (error) {
-			console.log(error)
+			console.log(error);
 			Modal.error({
 				title: 'Error',
-				content: 'Your account do not correct!',
+				content: 'Something went wrong!',
 			})
 		}
 	}
@@ -57,7 +49,7 @@ export default function LoginPage() {
 				<div className={classes.leftSide}>
 					<img
 						src="https://source.unsplash.com/random/?banner/1790x80"
-						alt="login banner"
+						alt="register banner"
 					/>
 				</div>
 				<div className={classes.rightSide}>
@@ -69,7 +61,7 @@ export default function LoginPage() {
 						<h3>Welcome to Hitek </h3>
 					</div>
 					<div className={classes.contentSide}>
-						<LoginForm onSubmit={onSubmit} />
+						<SignupForm onSubmit={onSubmit} />
 					</div>
 				</div>
 			</div>

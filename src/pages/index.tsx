@@ -1,5 +1,5 @@
 import BaseLayout from '@/layouts/BaseLayout'
-import { ListData } from '@/utils/mockData'
+import { ListData } from '@/utils/breadcrumb'
 import { Col, Divider, List, Row } from 'antd'
 // import classes from './style.module.scss'
 
