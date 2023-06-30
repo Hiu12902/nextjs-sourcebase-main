@@ -1,105 +1,99 @@
 /* eslint-disable react-hooks/exhaustive-deps */
+/* eslint-disable @next/next/no-img-element */
 import BaseLayout from '@/layouts/BaseLayout'
 import React, { useEffect, useState } from 'react'
-import { Avatar, Divider, List, Skeleton } from 'antd'
-import { BlogModel, BlogState } from '@/types/models/blog'
+import { Breadcrumb, List, Pagination, PaginationProps, Skeleton } from 'antd'
+import { BlogModel, BlogsModel } from '@/types/models/blog'
 import * as BlogAPI from '@/api/BlogAPI'
-import Link from 'next/link'
-import InfiniteScroll from 'react-infinite-scroll-component'
-import { ROUTES } from '@/utils/routers'
+import { ListItem } from './components'
+import classes from './style.module.scss'
 
 export default function Blogs() {
 	const [pagination, setPagination] = useState({
 		page: 1,
-		limit: 10,
+		limit: 5,
 		total: null,
 	})
 	const [loading, setLoading] = useState(false)
-	const [blogState, setBlogState] = useState<BlogState>({
+	const [blogsState, setBlogsState] = useState<BlogsModel>({
 		total: undefined,
 		rows: [],
 	})
-
 	const getBlogList = async () => {
 		if (loading) {
 			return
 		}
 		setLoading(true)
-
 		try {
 			const res = await BlogAPI.getList({
-				fields: 'id,title,description,image',
 				page: pagination.page,
 				limit: pagination.limit,
 			})
-			setBlogState({
-				total: res?.results?.pagination?.count,
-				rows: blogState.rows.concat(res?.results?.rows),
+			setBlogsState({
+				total: res?.total,
+				rows: res?.rows,
 			})
 			setLoading(false)
 		} catch (error) {
 			setLoading(false)
 		}
 	}
-	const fetchMoreData = () => {
+	const handleChangePagination: PaginationProps['onChange'] = (page) => {
+		window.scrollTo({ top: 0, behavior: 'smooth' });
 		setPagination({
 			...pagination,
-			page: pagination.page + 1,
+			page: page,
 		})
 	}
 	useEffect(() => {
-		// setTimeout(() => {
 		getBlogList()
-		// }, 3000)
 	}, [pagination])
 
 	return (
 		<BaseLayout>
-			<div
-				// id="scrollableDiv"
-				style={
-					{
-						// height: '100vh',
-						// overflow: 'auto',
-						// padding: '0 16px',
-						// border: '1px solid rgba(140, 140, 140, 0.35)',
-					}
-				}
-			>
-				{blogState &&
-				blogState?.rows &&
-				blogState?.rows?.length > 0 &&
-				blogState?.total ? (
-					<InfiniteScroll
-						dataLength={blogState?.rows?.length}
-						next={fetchMoreData}
-						hasMore={blogState?.rows?.length < blogState?.total}
-						loader={<Skeleton avatar paragraph={{ rows: 1 }} active />}
-						endMessage={<Divider plain>It is all, nothing more 🤐</Divider>}
-						scrollableTarget="scrollableDiv"
-					>
+			<div className={classes.breadcrumb}>
+				<Breadcrumb
+					className="breadcrumb"
+					items={[
+						{
+							key: 'home',
+							href: '/',
+							title: 'Home',
+						},
+						{
+							key: 'blogs',
+							href: '/blogs',
+							title: 'Blogs',
+						},
+					]}
+				/>
+			</div>
+			<div>
+				{blogsState &&
+				blogsState?.rows &&
+				blogsState?.total &&
+				blogsState?.total > 0 ? (
+					<div>
 						<List
-							dataSource={blogState?.rows}
+							itemLayout="vertical"
+							size="large"
+							dataSource={blogsState?.rows}
 							renderItem={(item: BlogModel) => (
-								<List.Item key={item.id}>
-									<List.Item.Meta
-										avatar={<Avatar src={item.image} />}
-										title={
-											<Link href={`${ROUTES.BLOGS}/${item.id}`}>
-												{item.title}
-											</Link>
-										}
-										description={item.description}
-									/>
-									<div>{item.content}</div>
-								</List.Item>
+								<ListItem item={item} key={item.id} />
 							)}
 						/>
-					</InfiniteScroll>
+						<Pagination
+							pageSize={pagination.limit}
+							total={blogsState?.total}
+							defaultCurrent={1}
+							current={pagination.page}
+							onChange={handleChangePagination}
+						/>
+					</div>
 				) : (
 					<Skeleton
 						avatar
-						paragraph={{ rows: 1 }}
+						paragraph={{ rows: 5 }}
 						active
 						style={{ marginTop: 20 }}
 					/>

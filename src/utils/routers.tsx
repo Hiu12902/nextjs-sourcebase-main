@@ -9,9 +9,11 @@ export const APP_ROUTES = {
 
 	// blogs
 	BLOGS: '/blogs',
-	BLOG: '/blog/:id',
 }
 
 export const ADMIN_ROUTES = {
 	DASHBOARD: '/dashboard',
+
+	// blogs
+	CREATE: '/dashboard/create',
 }

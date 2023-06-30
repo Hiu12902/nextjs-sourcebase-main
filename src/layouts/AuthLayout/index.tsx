@@ -1,7 +1,7 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import { userStore } from '@/store/userStore'
 import { BaseLayoutProps } from '@/types/layouts'
-import { MenuData } from '@/utils/breadcrumb'
+import { MenuData } from '@/utils/menu'
 import { APP_ROUTES } from '@/utils/routers'
 import { Breadcrumb, Layout, Menu } from 'antd'
 import { useRouter } from 'next/router'

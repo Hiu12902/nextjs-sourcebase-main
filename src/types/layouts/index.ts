@@ -9,3 +9,7 @@ export type PermissionLayoutProps = {
 export type AuthLayoutProps = {
 	children?: React.ReactNode
 }
+
+export type AdminLayoutProps = {
+	children?: React.ReactNode
+}

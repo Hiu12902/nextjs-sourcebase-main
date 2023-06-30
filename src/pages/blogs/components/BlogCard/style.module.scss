@@ -1,0 +1,29 @@
+.blogDetailImgContainer {
+	margin: 30px auto;
+	width: 90%;
+	.blogDetailImg {
+		object-fit: cover;
+		display: block;
+		width: 100%;
+		height: auto;
+		border-radius: 10px;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+}
+.blogDetailContent {
+	text-align: left;
+	line-height: 28px;
+	font-size: 15px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media (max-width: 768px) {
+    .blogDetailContent {
+        font-size: 13px;
+    }
+}
+@media (max-width: 375px) {
+    .blogDetailContent {
+        font-size: 12px;
+    }
+}

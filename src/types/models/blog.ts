@@ -15,5 +15,6 @@ export type BlogResponse = {
 	blog: BlogModel
 }
 export type BlogsResponse = {
-	blogs: BlogsModel
+	total: number
+	rows: Array<BlogModel>
 }

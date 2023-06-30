@@ -1,8 +1,8 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import { userStore } from '@/store/userStore'
 import { BaseLayoutProps } from '@/types/layouts'
-import { Breadcrumb, Layout, Menu } from 'antd'
-import { MenuData } from '@/utils/breadcrumb'
+import { Layout, Menu, Modal } from 'antd'
+import { MenuData } from '@/utils/menu'
 import React, { useEffect, useState } from 'react'
 import { useRecoilValue, useResetRecoilState } from 'recoil'
 import classes from './index.module.scss'
@@ -20,7 +20,20 @@ export default function BaseLayout({ children }: BaseLayoutProps) {
 			userState?.id
 				? renderMenu &&
 						renderMenu.concat({
-							label: <span onClick={() => resetUserState()}>Logout</span>,
+							label: (
+								<span
+									className={classes.logout}
+									onClick={() => {
+										Modal.confirm({
+											title: 'Logout',
+											content: 'Are you sure you want to logout?',
+										})
+										resetUserState()
+									}}
+								>
+									Logout
+								</span>
+							),
 							key: 'logout',
 						})
 				: MenuData,
@@ -39,28 +52,7 @@ export default function BaseLayout({ children }: BaseLayoutProps) {
 					items={menuState}
 				/>
 			</Header>
-			<Breadcrumb
-				className="breadcrumb"
-				items={[
-					{
-						key: 'home',
-						href: '',
-						title: 'Home',
-					},
-					{
-						key: 'list',
-						href: '',
-						title: 'List',
-					},
-					{
-						key: 'app',
-						href: '',
-						title: 'App',
-					},
-				]}
-			/>
 			<Content id="siteLayoutContent">{children}</Content>
-
 			<Footer className={classes.footer}>
 				Ant Design ©2023 Created by Ant UED
 			</Footer>
