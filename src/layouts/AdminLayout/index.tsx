@@ -38,8 +38,10 @@ export default function AdminLayout({ children }: AdminLayoutProps) {
 											Modal.confirm({
 												title: 'Logout',
 												content: 'Are you sure you want to logout?',
+												onOk: () => {
+													resetUserState()
+												},
 											})
-											resetUserState()
 										}}
 									>
 										Logout

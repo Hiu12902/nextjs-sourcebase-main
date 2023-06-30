@@ -27,8 +27,10 @@ export default function BaseLayout({ children }: BaseLayoutProps) {
 										Modal.confirm({
 											title: 'Logout',
 											content: 'Are you sure you want to logout?',
+											onOk: () => {
+												resetUserState()
+											},
 										})
-										resetUserState()
 									}}
 								>
 									Logout
