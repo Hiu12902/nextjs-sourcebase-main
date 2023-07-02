@@ -76,7 +76,9 @@ export default function AdminLayout({ children }: AdminLayoutProps) {
 				/>
 			</Header>
 			<Content id="siteLayoutContent">{children}</Content>
-			<Footer className={classes.footer}></Footer>
+			<Footer className={classes.footer}>
+				Internship exam @2023 Created by Nguyen Tri Hieu
+			</Footer>
 		</Layout>
 	) : null
 }

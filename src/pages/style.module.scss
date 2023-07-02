@@ -7,3 +7,21 @@
 .breadcrumb {
 	margin: 0px -50px;
 }
+.layout {
+	.menu {
+		display: flex;
+		justify-content: flex-end;
+	}
+	.background {
+		width: 100%;
+	}
+	.welcome {
+		position: relative;
+	}
+	.wrapper {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		width: 100%;
+	}
+}

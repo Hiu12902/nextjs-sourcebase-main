@@ -62,7 +62,7 @@ export default function BaseLayout({ children }: BaseLayoutProps) {
 			</Header>
 			<Content id="siteLayoutContent">{children}</Content>
 			<Footer className={classes.footer}>
-				Ant Design ©2023 Created by Ant UED
+				Internship exam @2023 Created by Nguyen Tri Hieu
 			</Footer>
 		</Layout>
 	) : (
