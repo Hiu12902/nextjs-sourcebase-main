@@ -34,13 +34,18 @@ export default function BlogDetailPage({
 	const router = useRouter()
 	useEffect(() => {
 		if (!userState.id) {
-			Modal.warning({
+			Modal.confirm({
 				title: 'Oops!',
 				content: 'Please login to continue!',
+				onOk: () => {
+					router.push(APP_ROUTES.LOGIN)
+				},
+				onCancel: () => {
+					router.push(APP_ROUTES.HOME)
+				},
 			})
-			router.push(APP_ROUTES.LOGIN)
 		}
-	})
+	}, [])
 
 	return userState.id ? (
 		<BaseLayout>

@@ -7,6 +7,7 @@ import { BlogModel, BlogsModel } from '@/types/models/blog'
 import * as BlogAPI from '@/api/BlogAPI'
 import { ListItem } from './components'
 import classes from './style.module.scss'
+import Head from 'next/head'
 
 export default function Blogs() {
 	const [pagination, setPagination] = useState({
@@ -39,7 +40,7 @@ export default function Blogs() {
 		}
 	}
 	const handleChangePagination: PaginationProps['onChange'] = (page) => {
-		window.scrollTo({ top: 0, behavior: 'smooth' });
+		window.scrollTo({ top: 0, behavior: 'smooth' })
 		setPagination({
 			...pagination,
 			page: page,
@@ -51,6 +52,10 @@ export default function Blogs() {
 
 	return (
 		<BaseLayout>
+			<Head>
+				<title>Blogs</title>
+				<meta name="viewport" content="initial-scale=1.0, width=device-width" />
+			</Head>
 			<div className={classes.breadcrumb}>
 				<Breadcrumb
 					className="breadcrumb"

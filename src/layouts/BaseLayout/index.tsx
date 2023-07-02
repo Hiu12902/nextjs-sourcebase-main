@@ -6,16 +6,22 @@ import { MenuData } from '@/utils/menu'
 import React, { useEffect, useState } from 'react'
 import { useRecoilValue, useResetRecoilState } from 'recoil'
 import classes from './index.module.scss'
+import { useRouter } from 'next/router'
+import { ADMIN_ROUTES } from '@/utils/routers'
 
 const { Header, Content, Footer } = Layout
 
 export default function BaseLayout({ children }: BaseLayoutProps) {
 	const [menuState, setMenuState] = useState() as any
+	const router = useRouter()
 	const userState = useRecoilValue(userStore)
 	const resetUserState = useResetRecoilState(userStore)
 	const renderMenu = MenuData?.filter((item: any) => item.key !== 'login')
 
 	useEffect(() => {
+		if (userState?.account_type === 'master') {
+			router.push(ADMIN_ROUTES.DASHBOARD)
+		}
 		setMenuState(
 			userState?.id
 				? renderMenu &&
@@ -42,7 +48,7 @@ export default function BaseLayout({ children }: BaseLayoutProps) {
 		)
 	}, [userState])
 
-	return (
+	return userState?.account_type !== 'master' ? (
 		<Layout className={classes.layout} id="layout">
 			<Header className={classes.header}>
 				<div className="logo" />
@@ -59,5 +65,7 @@ export default function BaseLayout({ children }: BaseLayoutProps) {
 				Ant Design ©2023 Created by Ant UED
 			</Footer>
 		</Layout>
+	) : (
+		<></>
 	)
 }
