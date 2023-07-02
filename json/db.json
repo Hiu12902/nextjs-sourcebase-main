@@ -124,6 +124,18 @@
       "name": "",
       "gender": "female",
       "id": 21
+    },
+    {
+      "email": "masteruser@gmail.com",
+      "password": "$2a$10$1ZBHbaTiSZYj/qig7qcPIe8x2KC6fsniQjutffza64XSNpg2hGGR6",
+      "account_type": "master",
+      "id": 22
+    },
+    {
+      "email": "normaluser@gmail.com",
+      "password": "$2a$10$qUobM3suPy8CA61bpLzvSOdVnwwVQn6CNDCUfqB2osHAOT11Fafqu",
+      "account_type": "normal",
+      "id": 23
     }
   ],
   "blogs": [
