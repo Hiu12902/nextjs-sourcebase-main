@@ -5,7 +5,7 @@ import React, { useEffect, useState } from 'react'
 import { Breadcrumb, List, Pagination, PaginationProps, Skeleton } from 'antd'
 import { BlogModel, BlogsModel } from '@/types/models/blog'
 import * as BlogAPI from '@/api/BlogAPI'
-import { ListItem } from './components'
+import { BlogListItem } from '@/components'
 import classes from './style.module.scss'
 import Head from 'next/head'
 
@@ -84,7 +84,7 @@ export default function Blogs() {
 							size="large"
 							dataSource={blogsState?.rows}
 							renderItem={(item: BlogModel) => (
-								<ListItem item={item} key={item.id} />
+								<BlogListItem item={item} key={item.id} />
 							)}
 						/>
 						<Pagination

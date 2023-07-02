@@ -2,12 +2,12 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react'
 import classes from './style.module.scss'
-import { SignupForm } from './components'
 import { APP_ROUTES } from '@/utils/routers'
 import { useRouter } from 'next/router'
 import * as AuthAPI from '@/api/AuthAPI'
 import { Modal } from 'antd'
 import { PermissionLayout } from '@/layouts'
+import { SignupForm } from '@/components'
 
 interface FormData {
 	username: string

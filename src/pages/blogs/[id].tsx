@@ -10,7 +10,7 @@ import { useRouter } from 'next/router'
 import { userStore } from '@/store/userStore'
 import { APP_ROUTES } from '@/utils/routers'
 import { useEffect } from 'react'
-import { BlogCard } from './components'
+import { BlogCard } from '@/components'
 
 export const getServerSideProps = async ({ query }: any) => {
 	const { id } = query

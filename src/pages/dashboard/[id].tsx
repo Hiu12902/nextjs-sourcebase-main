@@ -12,7 +12,7 @@ import AdminLayout from '@/layouts/AdminLayout'
 import { useEffect } from 'react'
 import { blogStore } from '@/store/blogStore'
 import { userStore } from '@/store/userStore'
-import { EditForm } from './components'
+import { EditForm } from '@/components'
 
 export default function BlogDetailPage({
 	blog,

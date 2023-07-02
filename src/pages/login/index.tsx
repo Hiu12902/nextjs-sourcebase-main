@@ -2,7 +2,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react'
 import classes from './style.module.scss'
-import { LoginForm } from './components'
 import { userStore } from '@/store/userStore'
 import { ADMIN_ROUTES, APP_ROUTES } from '@/utils/routers'
 import { useRouter } from 'next/router'
@@ -11,6 +10,7 @@ import { Modal } from 'antd'
 import * as AuthAPI from '@/api/AuthAPI'
 import { LoginResponse } from '@/types/models/auth'
 import { PermissionLayout } from '@/layouts'
+import { LoginForm } from '@/components'
 interface FormData {
 	email: string
 	password: string

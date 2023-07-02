@@ -11,7 +11,7 @@ import AdminLayout from '@/layouts/AdminLayout'
 import { useEffect } from 'react'
 import { blogStore } from '@/store/blogStore'
 import { userStore } from '@/store/userStore'
-import { CreateForm } from './components'
+import { CreateForm } from '@/components'
 
 function CreateBlog() {
 	const resetState = useResetRecoilState(blogStore)

@@ -9,8 +9,8 @@ import { ADMIN_ROUTES } from '@/utils/routers'
 import { useResetRecoilState } from 'recoil'
 import classes from './style.module.scss'
 import { useRouter } from 'next/router'
-import { ListItem } from './components'
 import { blogStore } from '@/store/blogStore'
+import { ListItem } from '@/components'
 
 export default function Products() {
 	const router = useRouter()
