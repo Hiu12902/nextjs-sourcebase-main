@@ -31,7 +31,8 @@ export default function ListItem({ item }: ListItemProps) {
 				title={
 					<div className={classes.blogThumbnailTitle}>
 						<Link
-							href={`${APP_ROUTES.BLOGS}/${item.id}`}
+							href={`${APP_ROUTES.BLOGS}/[id]`}
+							as={`${APP_ROUTES.BLOGS}/${item.id}`}
 							style={{ color: 'black' }}
 						>
 							{item.title}

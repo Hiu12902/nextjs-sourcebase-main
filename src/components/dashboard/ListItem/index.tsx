@@ -28,7 +28,12 @@ export default function ListItem({ item }: ListItemProps) {
 		>
 			<List.Item.Meta
 				title={
-					<Link href={`${ADMIN_ROUTES.DASHBOARD}/${item.id}`}>{item.title}</Link>
+					<Link
+						href={`${ADMIN_ROUTES.DASHBOARD}/[id]`}
+						as={`${ADMIN_ROUTES.DASHBOARD}/${item.id}`}
+					>
+						{item.title}
+					</Link>
 				}
 				description={
 					<div className={classes.blogThumbnailDesc}> {item.description} </div>
