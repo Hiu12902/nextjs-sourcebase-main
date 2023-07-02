@@ -12,19 +12,14 @@ import { APP_ROUTES } from '@/utils/routers'
 import { useEffect } from 'react'
 import { BlogCard } from '@/components'
 
-export const getServerSideProps = async ({ query }: any) => {
-	const { id } = query
+export const getServerSideProps = async (context: any) => {
+	const { params } = context
 	try {
-		const res = await BlogAPI.findOne(id)
-		return {
-			props: {
-				blog: res,
-			},
-		}
+		const res = await BlogAPI.findOne(params.id)
+		return { props: { blog: res } }
 	} catch (error) {
-		return {
-			notFound: true,
-		}
+		console.log(error)
+		return { notFound: true }
 	}
 }
 export default function BlogDetailPage({
