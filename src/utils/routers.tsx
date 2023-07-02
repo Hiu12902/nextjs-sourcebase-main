@@ -1,20 +1,19 @@
-const BASE_URL = 'https://nextjs-sourcebase-json-server.vercel.app/' 
 // user routes
 export const APP_ROUTES = {
 	// homepage
-	HOME: `${BASE_URL}/`,
+	HOME: '/',
 
 	// authentication
-	LOGIN: `${BASE_URL}/login`,
-	SIGNUP: `${BASE_URL}/signup`,
+	LOGIN: '/login',
+	SIGNUP: '/signup',
 
 	// blogs
-	BLOGS: `${BASE_URL}/blogs`,
+	BLOGS: '/blogs',
 }
 
 export const ADMIN_ROUTES = {
-	DASHBOARD: `${BASE_URL}/dashboard`,
+	DASHBOARD: '/dashboard',
 
 	// blogs
-	CREATE: `${BASE_URL}/dashboard/create`,
+	CREATE: '/dashboard/create',
 }
